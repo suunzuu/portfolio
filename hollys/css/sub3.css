@@ -1,0 +1,153 @@
+@charset "UFT-8";
+ 
+/* MAIN-S */
+/* LNB li(width/padding)-S */
+.lnb .inner li{width: calc( 98% / 2);}
+
+
+/* ABOUT-S */
+.about .sec-header span{
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 800; font-size: 3.5rem; color: #D94444; line-height: 1.3;
+}
+.about figure{width: 100%;}
+.about figure img{width: 100%;}
+
+
+/* PROCESS-S */
+.process{padding-bottom: 0;}
+.process-list .inner{
+  display: flex; justify-content: space-between;
+  padding-top: 50px;
+}
+.process-list:first-child .inner{padding: 0 10px 100px;}
+.process-list:nth-child(2n) .inner{flex-direction: row-reverse;}
+.process-list:nth-child(2n){background-color: #f7f6f3}
+.process-list .process-desc{font-weight: 600; font-size: 2.7rem; line-height: 1.5;}
+.process-list .process-desc span{
+  display: block;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 800; font-size: 10rem; color: #ddd;
+}
+.process-list .process-desc em{font-weight: 800; font-size: 3.5rem; color: #D94444;}
+.process-list .process-list-img{width: 40%;  margin: 50px 5% 0;}
+.process-list .process-list-img img{width: 100%;}
+.process-list .additional-img{
+  display: flex; justify-content: space-between; align-items: flex-start;
+  width: 93%;
+  margin-top: 50px;
+}
+.process-list .additional-img .option-img{width: 55%;}
+.process-list .additional-img .mymenu-img{
+  width: 35%; 
+  margin-top: 2%;
+  border: 1px solid #ddd;
+  border-radius: 25px;
+}
+
+
+/* DOWNLOAD-S */
+.download{
+  padding: 150px 0 250px;
+  color: #fff;
+  background-color: #b8b6af;
+}
+.download .btn-wrap{
+  display: flex; justify-content: space-between; flex-wrap: wrap;
+  width: 100%;
+  padding: 0 30%;
+}
+.download .btn-wrap .download-btn{
+  display: flex; justify-content: center;
+  width: calc( ( 100% - 40px ) / 2 );
+  color: transparent;
+  padding: 20px;
+  background-color: #777;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.download .btn-wrap .download-btn figure{width: 80%;}
+.download .btn-wrap .download-btn figure img{width: 100%;}
+.download .btn-wrap .download-btn:hover{background-color: #D94444;}
+
+/* MAIN-E */
+
+
+
+/******************
+ max-width : 1300px
+******************/
+@media all and ( max-width : 1300px ) {
+  /* PROCESS-S */
+  .process-list:first-child .process-list-img{width: 90%;}
+  .process-list .additional-img{width: 88%; margin-top: 30px;}
+
+
+  /* DOWNLOAD-S */
+  .download .btn-wrap{padding: 0 20%;}
+
+}
+
+
+/******************
+ max-width : 1000px
+******************/
+@media all and ( max-width : 1000px ) {
+  /* PROCESS-S */
+  .process-list .process-desc{font-size: 2.3rem;}
+  .process-list .process-desc span{margin-bottom: 10px;  font-size: 8rem;}
+  .process-list .process-desc em{font-size: 3rem;}
+  .process-list .process-list-img{width: 50%;}
+  .process-list .additional-img .mymenu-img{border-radius: 15px;}
+
+}
+
+
+/******************
+ max-width : 800px
+******************/
+@media all and ( max-width : 800px ) {
+  /* ABOUT-S */
+  .about .sec-header span{font-size: 3rem;}
+
+  /* PROCESS-S */
+  .process-list:first-child .inner{padding-bottom: 80px;}
+  .process-list:first-child .process-list-img{width: 100%;}
+  .process-list .process-desc{font-size: 1.9rem;}
+  .process-list .process-desc span{margin-bottom: 8px;  font-size: 5rem;}
+  .process-list .process-desc em{font-size: 2.5rem;}
+  .process-list .process-list-img{margin: 0 3% 0;}
+
+
+  /* DOWNLOAD-S */
+  .download .btn-wrap{padding: 0 10%;}
+  .download .btn-wrap .download-btn{
+    width: calc( ( 100% - 25px ) / 2 );
+    padding: 10px;
+    border-radius: 20px;
+  }
+}
+
+
+/******************
+ max-width : 550px
+******************/
+@media all and ( max-width : 550px ) {
+  /* ABOUT-S */
+  .about .sec-header span{font-size: 2.2rem;}
+
+  /* PROCESS-S */
+  .process-list:first-child .inner{padding-bottom: 50px;}
+  .process-list:first-child .process-list-img{width: 150%;}
+  .process-list .process-desc{font-size: 1.4rem; }
+  .process-list .process-desc span{margin-bottom: 5px;  font-size: 2rem;}
+  .process-list .process-desc em{font-size: 1.8rem;}
+  .process-list .additional-img{width: 80%; margin-top: 15px;}
+
+  /* DOWNLOAD-S */
+  .download{padding: 100px 0 150px;}
+  
+}
+

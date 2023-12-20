@@ -1,0 +1,20 @@
+@charset "UFT-8";
+ 
+/* MAIN-S */
+.container > .inner{padding-bottom: 250px;}
+.sec{padding-bottom: 0;}
+
+/* LNB li(width/padding)-S */
+.lnb .inner li{width: calc( 95% / 5);}
+/* MAIN-E */
+
+
+
+
+/******************
+ max-width : 700px
+******************/
+@media all and ( max-width : 700px ) {
+  /* LNB li(width/padding)-S */
+  .lnb .inner li{width: calc( ( 100% - 12px ) / 2);}
+}

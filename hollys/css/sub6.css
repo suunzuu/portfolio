@@ -1,0 +1,223 @@
+@charset "UFT-8";
+
+/* MAIN-S */
+/* LNB li(width/padding)-S */
+.lnb .inner li {
+  padding: 0 3%;
+}
+
+
+/* ABOUT-S */
+.about .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.about .inner::before {
+  display: block;
+  width: 400px;
+  height: 200px;
+  background: url(/portpolio/hollys/img/sub-hollys-txt.svg) no-repeat center center / contain;
+  position: absolute;
+  left: 50%;
+  top: -100px;
+  z-index: -100;
+  transform: translateX(-50%);
+}
+.about .sec-header {
+  flex-direction: column;
+}
+.about .sec-header .tit {
+  margin-bottom: 10px;
+  font-weight: 900;
+  font-size: 4.3rem;
+  line-height: 1.3;
+}
+.about .sec-header .desc {
+  margin: 0;
+  color: #D94444;
+}
+.about .about-desc {
+  width: 80%;
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 1.9;
+  color: #777;
+}
+
+
+/* PHILOSOPHY-S */
+.philosophy-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.philosophy-wrap::before {
+  display: block;
+  width: 62%;
+  height: 500px;
+  margin: 0 3% 80px 0;
+  background: url(/portpolio/hollys/img/sub-about-img-01.jpg) no-repeat center center / cover;
+  border-radius: 100px;
+}
+.philosophy-wrap::after {
+  display: block;
+  width: 62%;
+  height: 500px;
+  margin-left: 3%;
+  background: url(/portpolio/hollys/img/sub-about-img-02.jpg) no-repeat center center / cover;
+  border-radius: 100px;
+}
+.philosophy-wrap .philosophy-list {
+  width: 35%;
+}
+.philosophy-wrap .philosophy-list .philosophy-tit span {
+  display: block;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 600;
+  font-size: 10rem;
+  color: #ddd;
+}
+.philosophy-wrap .philosophy-list .philosophy-tit {
+  margin-bottom: 80px;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #D94444;
+}
+.philosophy-wrap .philosophy-list .philosophy-desc {
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+
+/* YOUTUBE-S */
+.youtube {
+  padding-bottom: 300px;
+  text-align: center;
+}
+.youtube iframe {
+  width: 1271px;
+  height: 715px;
+  border-radius: 70px;
+}
+/* MAIN-E */
+
+
+
+
+/******************
+ max-width : 1300px
+******************/
+@media all and (max-width : 1300px) {
+  /* YOUTUBE-S */
+  .youtube iframe {
+    width: 100%;
+  }
+}
+
+
+/******************
+ max-width : 1080px
+******************/
+@media all and (max-width : 1080px) {
+  /* LNB li(width/padding)-S */
+  .lnb .inner li {
+    padding: 0 2%;
+  }
+
+  /* ABOUT-S */
+  .about .about-desc {
+    width: 100%;
+  }
+
+  /* PHILOSOPHY-S */
+  .philosophy-wrap {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .philosophy-wrap .philosophy-list {
+    width: 100%;
+  }
+  .philosophy-wrap::before, .philosophy-wrap::after {
+    width: 100%;
+    height: 400px;
+    margin: 0;
+  }
+  .philosophy-wrap .philosophy-list {
+    margin: 50px 0;
+  }
+  .philosophy-wrap .philosophy-list:nth-child(2) {
+    order: 4;
+    margin-bottom: 0;
+  }
+  .philosophy-wrap .philosophy-list .philosophy-tit {
+    margin-bottom: 50px;
+  }
+}
+
+
+/******************
+ max-width : 800px
+******************/
+@media all and (max-width : 800px) {
+  /* LNB li(width/padding)-S */
+  .lnb .inner li {
+    width: calc((100% - 24px) / 3);
+  }
+
+  /* ABOUT-S */
+  .about .sec-header .tit {
+    font-size: 3.8rem;
+  }
+  .about .sec-header .tit-desc {
+    font-size: 1.8rem;
+  }
+
+  /* PHILOSOPHY-S */
+  .philosophy-wrap .philosophy-list {
+    margin: 25px 0;
+  }
+  .philosophy-wrap .philosophy-list:nth-child(2) {
+    margin-bottom: 0;
+  }
+
+  /* YOUTUBE-S */
+  .youtube {
+    padding-bottom: 250px;
+  }
+}
+
+
+
+/******************
+ max-width : 550px
+******************/
+@media all and (max-width : 550px) {
+  /* LNB li(width/padding)-S */
+  .lnb .inner li {
+    width: calc((100% - 15px) / 2);
+  }
+
+  /* ABOUT-S */
+  .about .inner::before {
+    width: 300px;
+    height: 150px;
+    top: -70px;
+  }
+
+  /* PHILOSOPHY-S */
+  .philosophy-wrap .philosophy-list .philosophy-tit span {
+    margin: 0 10px 0 0;
+    font-size: 3rem;
+    color: #777;
+  }
+  .philosophy-wrap .philosophy-list .philosophy-tit {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 2.5rem;
+  }
+}

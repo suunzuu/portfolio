@@ -1,0 +1,1109 @@
+@charset "UFT-8";
+
+/* MAIN-S */
+/* MAIN COMMON-S */
+.sec {
+  padding: 90px 0;
+}
+.sec-header {
+  margin-bottom: 80px;
+}
+.sec-header .tit {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 800;
+  font-size: 5.5rem;
+}
+.sec-header .tit::before {
+  display: block;
+  width: 42px;
+  height: 38px;
+  margin-right: 15px;
+  background: url(/portpolio/hollys/img/logo-crown.svg) no-repeat center center / contain;
+}
+.sec-header .desc {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 1.4;
+}
+.sec-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58px;
+  height: 58px;
+  position: absolute;
+  right: 18px;
+  top: 40px;
+  z-index: 1000;
+}
+.sec-more::before {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  border: 2px dotted #D94444;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: -100;
+  transform: translate(-50%, -50%);
+}
+.sec-more::after {
+  display: block;
+  width: 23px;
+  height: 23px;
+  background: #fff url(/portpolio/hollys/img/more-arrow.svg) no-repeat center center / cover;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  z-index: -1;
+  transform: translate(50%, -50%);
+  transition: all 0.3s;
+}
+.sec-more span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 26px;
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 600;
+  font-size: 2.2rem;
+  letter-spacing: -1px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.sec-more:hover::after {
+  transform: translate(45px, -50%);
+}
+.sec-more:hover span {
+  transform: translateX(-20px);
+}
+
+/* VISUAL-S */
+.visual-swiper {
+  width: 100%;
+  height: 100vh;
+}
+.visual-swiper .visual-slide {
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.visual-swiper .slide1 {
+  background-image: url(/portpolio/hollys/img/visual-img-01-1920.jpg);
+}
+.visual-swiper .slide2 {
+  background-image: url(/portpolio/hollys/img/visual-img-02-1920.jpg);
+}
+.visual-swiper .slide3 {
+  background-image: url(/portpolio/hollys/img/visual-img-03-1920.jpg);
+}
+.visual-swiper .slide4 {
+  background-image: url(/portpolio/hollys/img/visual-img-04-1920.jpg);
+}
+.visual-swiper .slide5 {
+  background-image: url(/portpolio/hollys/img/visual-img-05-1920.jpg);
+}
+.visual-swiper .swiper-pagination {
+  text-align: right;
+  padding-right: 90px;
+  bottom: 50px;
+}
+.visual-swiper .swiper-button-prev {
+  left: calc(100% - 210px);
+  top: calc(100vh - 65px);
+  width: 20px;
+  height: 20px;
+  background: url(/portpolio/hollys/img/slide-prev.svg) no-repeat center center / contain;
+}
+.visual-swiper .swiper-button-next {
+  right: 50px;
+  top: calc(100vh - 65px);
+  width: 20px;
+  height: 20px;
+  background: url(/portpolio/hollys/img/slide-next.svg) no-repeat center center / contain;
+}
+
+/* FRANCHISE-S */
+.franchise {
+  padding-top: 100px;
+}
+.franchise .sec {
+  overflow: hidden;
+}
+.franchise-swiper {
+  width: 100vw;
+  height: 50vh;
+  border-radius: 100px 0 0 100px;
+}
+.franchise-swiper .franchise-slide {
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  background-position: center 75%;
+  background-size: cover;
+}
+.franchise-swiper .slide1 {
+  background-image: url(/portpolio/hollys/img/franchise-img-01.jpg);
+}
+.franchise-swiper .slide2 {
+  background-image: url(/portpolio/hollys/img/franchise-img-02.jpg);
+}
+.franchise-swiper .slide3 {
+  background-image: url(/portpolio/hollys/img/franchise-img-03.jpg);
+}
+.franchise-swiper .slide4 {
+  background-image: url(/portpolio/hollys/img/franchise-img-04.jpg);
+}
+.franchise-swiper .slide5 {
+  background-image: url(/portpolio/hollys/img/franchise-img-05.jpg);
+}
+
+
+/* BEVERAGE-S */
+.beverage-wrap {
+  height: 670px;
+  position: relative;
+}
+.beverage-category-wrap {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.beverage-category-wrap .beverage-category {
+  height: 60px;
+  font-weight: 600;
+  font-size: 2.8rem;
+  color: #D94444;
+  position: absolute;
+  left: 0;
+  ;
+  z-index: 10000;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+.beverage-category-wrap:nth-child(1) .beverage-category {
+  top: 0
+}
+.beverage-category-wrap:nth-child(2) .beverage-category {
+  top: 60px
+}
+.beverage-category-wrap:nth-child(3) .beverage-category {
+  top: 120px
+}
+.beverage-category-wrap:nth-child(4) .beverage-category {
+  top: 180px
+}
+.beverage-category-wrap:nth-child(5) .beverage-category {
+  top: 240px
+}
+.beverage-category-wrap .beverage-category span::before {
+  display: block;
+  width: 0;
+  height: 3px;
+  background-color: #D94444;
+  position: absolute;
+  left: 0;
+  top: -6px;
+  transition: all 0.3s;
+}
+.beverage-main {
+  display: none;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.beverage-category-wrap.active .beverage-main {
+  display: flex;
+}
+.beverage-main .beverage-content {
+  order: 2;
+  width: 33%;
+  padding-top: 100px;
+  font-weight: 600;
+  color: #D94444;
+  flex-shrink: 0;
+}
+.beverage-main .beverage-content .beverage-tit-sub {
+  padding: 3px 10px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: #fff;
+  border-radius: 20px;
+  background-color: #969696;
+}
+.beverage-main .beverage-content .beverage-tit {
+  font-size: 3.2rem;
+  line-height: 1.3;
+  margin-top: 10px;
+}
+.beverage-main .beverage-content .beverage-titen {
+  font-size: 2.2rem;
+}
+.beverage-main .beverage-content .beverage-desc {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #555;
+  line-height: 1.5;
+}
+.beverage-main .beverage-img {
+  width: 750px;
+  margin-right: 50px;
+  background: url(/portpolio/hollys/img/beverage-bg.png) no-repeat center center / contain;
+  position: relative;
+  flex-shrink: 0;
+}
+.beverage-main .beverage-img img {
+  width: 700px;
+}
+.beverage-more-wrap {
+  display: none;
+  justify-content: space-between;
+  width: 40%;
+  position: absolute;
+  right: 33px;
+  top: 65%;
+  z-index: 1000;
+}
+.beverage-category-wrap.active .beverage-more-wrap {
+  display: flex;
+}
+.beverage-more-wrap .beverage-more {
+  width: calc(100% / 3);
+  position: relative;
+}
+.beverage-more-wrap .beverage-more img {
+  width: 100%;
+}
+.beverage-more-wrap .beverage-more figcaption {
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: -1px;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+}
+.beverage-category:hover, .beverage-category-wrap.active .beverage-category {
+  font-weight: 800;
+}
+.beverage-category:hover::before, .beverage-category-wrap.active .beverage-category span::before {
+  width: 100%;
+}
+.beverage-more-wrap .beverage-more:hover {
+  opacity: 0.8;
+  filter: grayscale(1);
+  animation: shake-emphasis 0.4s;
+}
+.beverage-more-wrap .beverage-more:hover figcaption {
+  opacity: 1;
+  text-shadow: 0px 0px 3px #000;
+  animation: appear3-decoration 0.4s;
+}
+
+/* BEVERAGE-animation */
+.beverage-category-wrap:nth-child(1) .beverage-main .beverage-img::before {
+  display: block;
+  width: 130px;
+  height: 130px;
+  background: url(/portpolio/hollys/img/beverage-decoration-coffee-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 15%;
+  top: 18%;
+  animation: appear-decoration 1s;
+}
+.beverage-category-wrap:nth-child(1) .beverage-main .beverage-img::after {
+  display: block;
+  width: 70px;
+  height: 60px;
+  background: url(/portpolio/hollys/img/beverage-decoration-coffee2-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 25%;
+  top: 43%;
+  animation: appear2-decoration 1.5s;
+}
+.beverage-category-wrap:nth-child(2) .beverage-main .beverage-img::before {
+  display: block;
+  width: 90px;
+  height: 90px;
+  background: url(/portpolio/hollys/img/beverage-decoration-rosemary-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 23%;
+  top: 8%;
+  transform: rotate(-10deg);
+  opacity: 0.5;
+  animation: appear-decoration 1s;
+}
+.beverage-category-wrap:nth-child(2) .beverage-main .beverage-img::after {
+  display: block;
+  width: 120px;
+  height: 120px;
+  background: url(/portpolio/hollys/img/beverage-decoration-rosemary-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 15%;
+  top: 15%;
+  transform: rotate(50deg);
+  animation: appear2-decoration 1.5s;
+}
+.beverage-category-wrap:nth-child(3) .beverage-main .beverage-img::before {
+  display: block;
+  width: 100px;
+  height: 80px;
+  background: url(/portpolio/hollys/img/beverage-decoration-chocolate-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 14%;
+  top: 20%;
+  animation: appear-decoration 1s;
+}
+.beverage-category-wrap:nth-child(3) .beverage-main .beverage-img::after {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: url(/portpolio/hollys/img/beverage-decoration-chocolate2-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 21%;
+  top: 8%;
+  opacity: 0.7;
+  animation: appear2-decoration 1.5s;
+}
+.beverage-category-wrap:nth-child(4) .beverage-main .beverage-img::before {
+  display: block;
+  width: 350px;
+  height: 450px;
+  background: url(/portpolio/hollys/img/beverage-decoration-milk-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 0;
+  top: 15%;
+  opacity: 0.7;
+  animation: appear3-decoration 1s;
+}
+.beverage-category-wrap:nth-child(4) .beverage-main .beverage-img::after {
+  display: block;
+  width: 150px;
+  height: 450px;
+  background: url(/portpolio/hollys/img/beverage-decoration-fruit-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 17%;
+  top: 12%;
+  opacity: 0.9;
+  animation: appear3-decoration 1.5s;
+}
+.beverage-category-wrap:nth-child(5) .beverage-main .beverage-img::before {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background: url(/portpolio/hollys/img/beverage-decoration-mint-img.png) no-repeat center center / contain;
+  position: absolute;
+  right: 26%;
+  top: 8%;
+  opacity: 0.9;
+  animation: appear-decoration 1s;
+}
+.beverage-category-wrap:nth-child(5) .beverage-main .beverage-img::after {
+  display: block;
+  width: 650px;
+  height: 550px;
+  background: url(/portpolio/hollys/img/beverage-decoration-water-img.png) no-repeat center center / contain;
+  position: absolute;
+  left: 50%;
+  top: 15%;
+  transform: translateX(-50%);
+  opacity: 0.8;
+  animation: appear3-decoration 1.5s;
+}
+
+
+/* BOARD-S */
+.board {
+  position: relative;
+}
+.board::after {
+  display: block;
+  width: 100%;
+  height: 180px;
+  border-radius: 0 0 180px 180px;
+  background-color: #fff;
+  position: absolute;
+  left: 0;
+  bottom: -180px;
+}
+.board .sec-header .tit span {
+  font-weight: 400;
+  margin: 0 10px;
+}
+.board-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.board-wrap .board-list-wrap {
+  width: calc((100% - 80px) / 2);
+}
+.board-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  font-size: 2rem;
+  border-top: 1px solid #ddd;
+  position: relative;
+}
+.board-list::before {
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #D94444;
+  position: absolute;
+  left: 0;
+  top: -1px;
+  transition: all 0.7s;
+}
+.board-list:last-child::after {
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.board-list .board-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: calc(100% - 95px);
+}
+.board-list .board-content .board-tit-wrap .board-category {
+  display: block;
+  margin-bottom: 5px;
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -1px;
+  color: #D94444;
+}
+.board-list .board-content .board-tit-wrap .board-tit {
+  height: 45px;
+  margin: 0 15px 8px 0;
+  font-weight: 600;
+  line-height: 1.3;
+  transition: all 0.3s;
+}
+.board-list .board-content .board-date {
+  color: #666;
+}
+.board-list .board-more a {
+  display: block;
+  width: 75px;
+  font-size: 1.3rem;
+  color: #999;
+  position: relative;
+  transition: all 0.3s;
+}
+.board-list .board-more a::before, .board-list .board-more a::after {
+  display: block;
+  width: 19px;
+  height: 2px;
+  background-color: #b1b1b1;
+  position: absolute;
+  right: -5px;
+  transition: all 0.3s;
+}
+.board-list .board-more a::before {
+  top: -8px;
+  transform: rotate(45deg);
+  transform-origin: left bottom;
+}
+.board-list .board-more a::after {
+  bottom: -8px;
+  transform: rotate(-45deg);
+  transform-origin: left top;
+}
+.board-list .board-more a span::before {
+  display: block;
+  width: 26px;
+  height: 2px;
+  background-color: #b1b1b1;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.3s;
+}
+.board-list .board-more a span::after {
+  display: block;
+  width: 47px;
+  height: 47px;
+  border: 2px dotted #D94444;
+  border-radius: 100%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s;
+}
+.board-list:hover::before {
+  width: 100%;
+}
+.board-list:hover .board-tit {
+  color: #777;
+}
+.board-list:hover .board-more a {
+  color: transparent;
+}
+.board-list:hover .board-more a::before,
+.board-list:hover .board-more a::after {
+  right: 25%;
+  background-color: #D94444;
+}
+.board-list:hover .board-more a::before {
+  transform: rotate(90deg);
+}
+.board-list:hover .board-more a::after {
+  transform: rotate(-90deg);
+}
+.board-list:hover .board-more a span::before {
+  right: 50%;
+  transform: translateX(50%);
+  background-color: #D94444;
+}
+.board-list:hover .board-more a span::after {
+  opacity: 1;
+  animation: opacity-emphasis 1s infinite;
+}
+
+/* SNS-S */
+.sns {
+  padding: 345px 0;
+  background-color: #ece5e4;
+}
+.sns-swiper {
+  margin-bottom: 25px;
+}
+.sns-swiper .sns-slide {
+  border-radius: 20%;
+  overflow: hidden;
+}
+.sns-swiper .sns-slide img {
+  width: 100%;
+}
+.sns-id {
+  display: flex;
+  justify-content: center;
+  font-family: 'Montserrat', "돋움", dotum, AppleGothic, sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  letter-spacing: -1px;
+  color: #999;
+}
+.sns-id::before {
+  display: block;
+  width: 28px;
+  height: 28px;
+  margin-right: 10px;
+  background: url(/portpolio/hollys/img/sns-instagram.svg) no-repeat center center / cover;
+}
+.sns .sec-more::after, .sns .sec-more span {
+  background-color: #ece5e4;
+}
+/* MAIN-E */
+
+
+
+/******************
+ max-width : 1280px
+******************/
+@media all and (max-width : 1280px) {
+  /* MAIN COMMON-S */
+  .sec-more {
+    top: 0;
+  }
+
+  /* VISUAL-S */
+  .visual-swiper .slide1 {
+    background-image: url(/portpolio/hollys/img/visual-img-01-1280.jpg);
+    background-position: 80% center;
+  }
+  .visual-swiper .slide2 {
+    background-image: url(/portpolio/hollys/img/visual-img-02-1280.jpg);
+  }
+  .visual-swiper .slide3 {
+    background-image: url(/portpolio/hollys/img/visual-img-03-1280.jpg);
+  }
+  .visual-swiper .slide4 {
+    background-image: url(/portpolio/hollys/img/visual-img-04-1280.jpg);
+  }
+  .visual-swiper .slide5 {
+    background-image: url(/portpolio/hollys/img/visual-img-05-1280.jpg);
+    background-position: 70% center;
+  }
+  .visual-swiper .swiper-pagination {
+    padding-right: 50px;
+    bottom: 50px;
+  }
+  .visual-swiper .swiper-button-prev {
+    left: calc(100% - 165px);
+  }
+  .visual-swiper .swiper-button-next {
+    right: 20px;
+  }
+
+  /* FRANCHISE-S */
+  .franchise-swiper {
+    margin-left: 5%;
+  }
+
+  /* BOARD-S */
+  .board-wrap .board-list-wrap {
+    width: calc((100% - 50px) / 2);
+  }
+  .board-list .board-content {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-right: 8px;
+  }
+  .board-list .board-content .board-tit-wrap .board-tit {
+    height: 100%;
+  }
+  .board-list .board-content .board-date {
+    font-size: 1.6rem;
+  }
+  .board-list .board-more a {
+    width: 50px;
+    text-indent: -99999px;
+  }
+  .board-list .board-more a::before, .board-list .board-more a::after {
+    right: 5px;
+  }
+  .board-list .board-more a span::before {
+    right: 10px;
+  }
+  .board-list:hover .board-more a::before,
+  .board-list:hover .board-more a::after {
+    right: 15%;
+  }
+
+  /* FOOTER-S */
+  .top-btn {
+    right: 20px;
+    bottom: 80px;
+  }
+}
+
+
+/******************
+ max-width : 1200px
+******************/
+@media all and (max-width : 1200px) {
+  /* BEVERAGE-S */
+  .beverage-wrap {
+    height: 750px;
+  }
+  .beverage-wrap .beverage-category-wrap .beverage-category {
+    top: 0;
+  }
+  .beverage-category-wrap:nth-child(1) .beverage-category {
+    left: 0;
+  }
+  .beverage-category-wrap:nth-child(2) .beverage-category {
+    left: 17%;
+  }
+  .beverage-category-wrap:nth-child(3) .beverage-category {
+    left: 30%;
+  }
+  .beverage-category-wrap:nth-child(4) .beverage-category {
+    left: 52%;
+  }
+  .beverage-category-wrap:nth-child(5) .beverage-category {
+    left: 72%;
+  }
+  .beverage-main {
+    top: 80px;
+  }
+  .beverage-main .beverage-content {
+    width: 30%;
+  }
+  .beverage-main .beverage-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+  .beverage-main .beverage-img img {
+    width: 100%;
+  }
+  .beverage-more-wrap {
+    top: 70%;
+  }
+  .beverage-more-wrap .beverage-more:last-child {
+    display: none;
+  }
+  .beverage-more-wrap .beverage-more {
+    width: 50%;
+    position: relative;
+  }
+}
+
+
+/******************
+ max-width : 900px
+******************/
+@media all and (max-width : 900px) {
+  /* BEVERAGE-S */
+  .beverage-wrap {
+    height: 600px;
+  }
+  .beverage-category-wrap .beverage-category {
+    font-size: 2.5rem;
+  }
+  .beverage-category-wrap:nth-child(2) .beverage-category {
+    left: 26%;
+    transform: translateX(-50%);
+  }
+  .beverage-category-wrap:nth-child(3) .beverage-category {
+    left: 48%;
+    transform: translateX(-50%);
+  }
+  .beverage-category-wrap:nth-child(4) .beverage-category {
+    left: 73%;
+    transform: translateX(-50%);
+  }
+  .beverage-category-wrap:nth-child(5) .beverage-category {
+    left: 100%;
+    transform: translateX(-100%);
+  }
+  .beverage-main {
+    top: 60px;
+  }
+  .beverage-main .beverage-content .beverage-tit {
+    font-size: 2.8rem;
+  }
+  .beverage-main .beverage-content .beverage-titen {
+    font-size: 2rem;
+  }
+  .beverage-main .beverage-content .beverage-desc {
+    font-size: 1.5rem;
+  }
+  .beverage-wrap .beverage-category-wrap .beverage-main .beverage-img::before,
+  .beverage-wrap .beverage-category-wrap .beverage-main .beverage-img::after,
+  .beverage-category-wrap.active .beverage-more-wrap {
+    display: none;
+  }
+
+  /* BOARD-S */
+  .board-list .board-content .board-tit-wrap .board-category {
+    font-size: 1.4rem;
+  }
+  .board-list {
+    font-size: 1.8rem;
+  }
+}
+
+
+/******************
+ max-width : 800px
+******************/
+@media all and (max-width : 800px) {
+  /* VISUAL-S */
+  .visual-swiper .slide1, .visual-swiper .slide5 {
+    background-position: center center;
+  }
+  .visual-swiper .slide1 {
+    background-image: url(/portpolio/hollys/img/visual-img-01-640.jpg);
+  }
+  .visual-swiper .slide2 {
+    background-image: url(/portpolio/hollys/img/visual-img-02-640.jpg);
+  }
+  .visual-swiper .slide3 {
+    background-image: url(/portpolio/hollys/img/visual-img-03-640.jpg);
+  }
+  .visual-swiper .slide4 {
+    background-image: url(/portpolio/hollys/img/visual-img-04-640.jpg);
+  }
+  .visual-swiper .slide5 {
+    background-image: url(/portpolio/hollys/img/visual-img-05-640.jpg);
+  }
+
+  /* BOARD-S */
+  .board::after {
+    height: 100px;
+    border-radius: 0 0 100px 100px;
+    bottom: -100px;
+  }
+  .board-wrap {
+    flex-direction: column;
+  }
+  .board-wrap .board-list-wrap {
+    width: 100%
+  }
+  .board-list {
+    height: 110px;
+  }
+  .board-list:last-child {
+    display: none
+  }
+  .board-list-wrap:last-child .board-list:nth-child(3)::after {
+    display: block;
+    width: 100%;
+    height: 1px;
+    background-color: #ddd;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  /* SNS-S */
+  .sns {
+    padding: 250px 0 200px;
+  }
+}
+
+
+
+/******************
+ max-width : 640px
+******************/
+@media all and (max-width : 640px) {
+  /* MAIN COMMON-S */
+  .sec {
+    padding: 65px 0;
+  }
+  .sec-header {
+    margin-bottom: 50px;
+  }
+  .sec-header .tit {
+    font-size: 4.8rem;
+  }
+  .sec-header .tit::before {
+    width: 40px;
+    height: 36px;
+  }
+  .sec-header .desc {
+    font-size: 2rem;
+  }
+  .sec-more {
+    width: 55px;
+    height: 55px;
+  }
+  .sec-more::after {
+    width: 20px;
+    height: 20px;
+  }
+  .sec-more span {
+    font-size: 2rem;
+  }
+  .sec-more:hover::after {
+    transform: translate(40px, -50%);
+  }
+  .sec-more:hover span {
+    transform: translateX(-15px);
+  }
+
+  /* FRANCHISE-S */
+  .franchise {
+    padding-top: 50px;
+  }
+
+  /* BEVERAGE-S */
+  .beverage-wrap {
+    height: 650px;
+  }
+  .beverage-category-wrap:nth-child(1) .beverage-category {
+    left: 10%;
+  }
+  .beverage-category-wrap:nth-child(2) .beverage-category {
+    left: 50%;
+  }
+  .beverage-category-wrap:nth-child(3) .beverage-category {
+    left: 68%;
+    transform: translateX(0);
+  }
+  .beverage-category-wrap:nth-child(4) .beverage-category {
+    top: 50px;
+    left: 10%;
+    transform: translateX(0);
+  }
+  .beverage-category-wrap:nth-child(5) .beverage-category {
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .beverage-main {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    top: 120px;
+  }
+  .beverage-main .beverage-content {
+    width: 100%;
+    padding-top: 15px;
+  }
+  .beverage-main .beverage-content .beverage-desc {
+    margin-top: 20px;
+  }
+
+
+  /* SNS-S */
+  .sns {
+    padding: 200px 0
+  }
+  .sns-swiper {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+
+/******************
+ max-width : 550px
+******************/
+@media all and (max-width : 550px) {
+  /* MAIN COMMON-S */
+  .sec {
+    padding: 50px 0;
+  }
+  .sec-header {
+    margin-bottom: 70px;
+  }
+  .sec-header .tit {
+    font-size: 3rem;
+    margin-bottom: 12px;
+  }
+  .sec-header .tit::before {
+    width: 25px;
+    height: 20px;
+    margin-right: 8px;
+  }
+  .sec-header .desc {
+    font-weight: 400;
+    font-size: 1.6rem;
+  }
+  .sec-more {
+    width: 40px;
+    height: 40px;
+    top: 75px;
+  }
+  .sec-more::after {
+    width: 18px;
+    height: 18px;
+  }
+  .sec-more span {
+    font-size: 1.6rem;
+  }
+  .sec-more:hover::after {
+    transform: translate(30px, -50%);
+  }
+  .sec-more:hover span {
+    transform: translateX(-15px);
+  }
+
+  /* FRANCHISE-S */
+  .franchise-swiper {
+    height: 30vh;
+  }
+
+  /* VISUAL-S */
+  .visual-swiper {
+    height: 80vh;
+  }
+  .visual-swiper .swiper-pagination {
+    text-align: center;
+    padding-right: 0;
+  }
+  .visual-swiper .swiper-button-prev {
+    left: calc(50% - 65px);
+    top: calc(80vh - 65px);
+  }
+  .visual-swiper .swiper-button-next {
+    right: calc(50% - 65px);
+    top: calc(80vh - 65px);
+  }
+
+  /* BEVERAGE-S */
+  .beverage-category-wrap .beverage-category {
+    font-size: 2rem;
+  }
+  .beverage-category-wrap:nth-child(n+4):nth-child(-n+5) .beverage-category {
+    top: 40px;
+  }
+  .beverage-main {
+    top: 90px;
+  }
+
+  /* BOARD-S */
+  .board::after {
+    height: 70px;
+    bottom: -70px;
+  }
+  .board-list .board-content .board-tit-wrap .board-category,
+  .board-list .board-content .board-date {
+    font-size: 1.3rem;
+  }
+  .board-list .board-content .board-tit-wrap .board-tit {
+    font-size: 1.7rem;
+  }
+  .board-list:hover .board-more a::before,
+  .board-list:hover .board-more a::after {
+    right: 15%;
+  }
+
+
+  /* SNS-S */
+  .sns {
+    padding: 150px 0
+  }
+  .sns-id {
+    font-size: 2rem;
+  }
+  .sns-id::before {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+  }
+}
+
+/******************
+ max-width : 470px
+******************/
+@media all and (max-width : 470px) {
+  /* BEVERAGE-S */
+  .beverage-wrap {
+    height: 500px;
+  }
+  .beverage-category-wrap:nth-child(1) .beverage-category {
+    left: 0;
+  }
+  .beverage-category-wrap:nth-child(2) .beverage-category {
+    left: 47%;
+  }
+  .beverage-category-wrap:nth-child(3) .beverage-category {
+    left: 65%;
+  }
+  .beverage-category-wrap:nth-child(4) .beverage-category {
+    left: 0;
+  }
+  .beverage-category-wrap:nth-child(5) .beverage-category {
+    left: 47%;
+  }
+  .beverage-main .beverage-content .beverage-tit {
+    font-size: 2.4rem;
+  }
+  .beverage-main .beverage-content .beverage-titen {
+    font-size: 1.5rem;
+  }
+}

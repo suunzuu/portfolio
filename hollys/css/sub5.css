@@ -1,0 +1,151 @@
+@charset "UFT-8";
+
+/* MAIN-S */
+/* LNB li(width/padding)-S */
+.lnb .inner li {
+  width: calc(95% / 4);
+}
+
+
+/* ABOUT-S */
+.about .inner::after {
+  display: block;
+  width: 100%;
+  height: 60vh;
+  background: url(/portpolio/hollys/img/sub-about-franchise-img.jpg) no-repeat center center / cover;
+  border-radius: 100px;
+}
+
+
+/* INFO-S */
+.info {
+  padding: 0 0 300px;
+}
+.info-list {
+  padding: 50px 0;
+  text-align: center;
+}
+.info-list .tit {
+  margin-bottom: 30px;
+  font-weight: 800;
+  font-size: 3.3rem;
+  color: #D94444;
+}
+.info-list .desc {
+  font-weight: 300;
+  font-size: 1.7rem;
+  line-height: 1.8;
+}
+.info-list .desc li::before {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  margin: 0 7px 5px 0;
+  border-radius: 100%;
+  background-color: #D94444;
+  opacity: 0.4;
+}
+.info-list .desc li em {
+  font-weight: 500;
+  font-size: 1.1em;
+}
+.info-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.info-map .desc {
+  margin-bottom: 40px;
+}
+.info-map .info-map-img {
+  width: 1271px;
+  height: 715px;
+  margin-bottom: 70px;
+  border-radius: 70px;
+}
+.info-map .print-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 70px;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #D94444;
+  border-radius: 20px;
+  transition: all 0.3s;
+}
+.info-map .print-btn span {
+  margin-right: 10px;
+}
+.info-map .print-btn:hover {
+  background-color: #ff8282;
+}
+/* MAIN-E */
+
+
+/******************
+ max-width : 1300px
+******************/
+@media all and (max-width : 1300px) {
+  /* INFO-S */
+  .info-map .info-map-img {
+    width: 100%;
+  }
+}
+
+
+/******************
+ max-width : 800px
+******************/
+@media all and (max-width : 800px) {
+  /* INFO-S */
+  .info-list {
+    padding: 30px 0;
+  }
+  .info-list:first-child {
+    padding-top: 0;
+  }
+  .info-list .tit {
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+  }
+  .info-list .desc {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+  .info-map .print-btn {
+    width: 50%;
+  }
+}
+
+/******************
+ max-width : 650px
+******************/
+@media all and (max-width : 650px) {
+  /* INFO-S */
+  .info-list .desc {
+    text-align: left;
+  }
+}
+
+
+/******************
+ max-width : 550px
+******************/
+@media all and (max-width : 550px) {
+  /* LNB li(width/padding)-S */
+  .lnb .inner li {
+    width: calc((100% - 12px) / 2);
+  }
+
+  /* ABOUT-S */
+  .about .inner::after {
+    height: 40vh;
+  }
+
+  /* INFO-S */
+  .info {
+    padding-bottom: 250px;
+  }
+}
