@@ -1,0 +1,264 @@
+@charset "UTF-8";
+/**********
+main-s
+**********/
+/* visual */
+.visual {
+  width: 100%;
+  min-width: 1280px;
+  color: #fff;
+  text-align: center;
+  background: url(/uplus/img/visual-bg.jpg) no-repeat center center / cover;
+}
+.visual p {
+  font-size: 39px;
+  line-height: 50px;
+}
+.visual em {
+  display: block;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 70px;
+}
+.visual strong {
+  font-weight: 600;
+  font-size: 110px;
+  line-height: 150px;
+}
+.visual strong span {
+  font-size: 70px;
+  vertical-align: super;
+}
+
+
+/* economize */
+.economize .inner {
+  position: relative;
+}
+.economize .inner::after {
+  content: "";
+  width: 620px;
+  height: 673px;
+  background-image: url(/uplus/img/economize.png);
+  position: absolute;
+  right: 0;
+  top: -200px;
+}
+
+
+/* convenience */
+.convenience {
+  min-width: 1280px;
+  background: url(/uplus/img/convenience-bg.jpg) no-repeat center center / cover;
+}
+.convenience .sec-txt {
+  float: right;
+  width: 570px;
+  color: #fff;
+}
+.convenience .sec-txt .sec-desc {
+  color: #fff;
+}
+
+
+/* interest */
+.interest .inner {
+  position: relative;
+}
+.interest .interest-swiper {
+  width: 991px;
+  height: 380px;
+  position: absolute;
+  top: 0px;
+  left: 600px;
+}
+
+.interest .interest-swiper .interest-slide {
+  width: 300px;
+  height: 320px;
+  padding: 40px 20px 0 20px;
+  color: #fff;
+  text-align: center;
+  border-radius: 55px;
+  position: relative;
+  cursor: pointer;
+}
+.interest .interest-swiper .interest-slide > span {
+  display: block;
+  width: 115px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: 700;
+  line-height: 40px;
+  border-radius: 20px;
+}
+.interest .interest-swiper .interest-slide p {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 34px;
+}
+.interest .interest-swiper .interest-slide p span {
+  display: block;
+}
+.interest .interest-swiper .interest-slide1 {
+  background-color: #e748aa;
+}
+.interest .interest-swiper .interest-slide1 > span {
+  background-color: #c6387f;
+}
+.interest .interest-swiper .interest-slide1::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 340px;
+  height: 217px;
+  background-image: url(/uplus/img/interest-01.png);
+}
+.interest .interest-swiper .interest-slide2 {
+  background-color: #575757;
+}
+.interest .interest-swiper .interest-slide2 > span {
+  background-color: #4c4c4c;
+}
+.interest .interest-swiper .interest-slide2::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0px;
+  width: 340px;
+  height: 221px;
+  background-image: url(/uplus/img/interest-02.png);
+}
+.interest .interest-swiper .interest-slide3 {
+  background-color: #1240aa;
+}
+.interest .interest-swiper .interest-slide3 > span {
+  background-color: #103892;
+}
+.interest .interest-swiper .interest-slide3::after {
+  content: "";
+  position: absolute;
+  bottom: -20px;
+  left: 0px;
+  width: 340px;
+  height: 232px;
+  background-image: url(/uplus/img/interest-03.png);
+}
+.interest .interest-swiper .interest-slide4 {
+  background-color: #7a3ece;
+}
+.interest .interest-swiper .interest-slide4 > span {
+  background-color: #874fd5;
+}
+.interest .interest-swiper .interest-slide4::after {
+  content: "";
+  position: absolute;
+  bottom: -25px;
+  left: 0px;
+  width: 340px;
+  height: 226px;
+  background-image: url(/uplus/img/interest-04.png);
+}
+.interest .interest-swiper .interest-slide5 {
+  background-color: #fc5d4a;
+}
+.interest .interest-swiper .interest-slide5 > span {
+  background-color: #db5140;
+}
+.interest .interest-swiper .interest-slide5::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 340px;
+  height: 217px;
+  background-image: url(/uplus/img/interest-05.png);
+}
+
+
+/* confidence */
+.confidence {
+  min-width: 1280px;
+  background: url(/uplus/img/confidence-bg.jpg) no-repeat center center / cover;
+}
+.confidence .sec-txt {
+  float: right;
+  color: #fff;
+}
+.confidence .sec-desc {
+  color: #fff;
+}
+.confidence .sec-desc::before {
+  content: "";
+  float: left;
+  width: 3px;
+  height: 3px;
+  margin: 13px 8px 0 0;
+  background-color: #fff;
+  border-radius: 100%;
+}
+.confidence .sec-desc p {
+  float: left;
+  width: 490px;
+}
+
+
+/* mobile */
+.mobile {
+  min-width: 1280px;
+  padding: 100px 0;
+  color: #fff;
+  background-color: #662d91;
+}
+.mobile .sec-wrap {
+  float: left;
+  margin-right: 200px;
+}
+.mobile .sec-wrap .sec-txt em {
+  display: block;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 37px;
+  margin-bottom: 30px;
+}
+.mobile .sec-wrap .sec-txt .sec-tit {
+  line-height: 60px;
+  letter-spacing: -1px;
+  margin-bottom: 60px;
+}
+.mobile .sec-wrap .sec-txt p {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+.mobile .sec-wrap .sec-txt p span {
+  font-size: 18px;
+  vertical-align: super;
+}
+.mobile .sec-wrap .mobile-btn a {
+  float: left;
+  width: 220px;
+  height: 44px;
+  margin-right: 15px;
+  padding-top: 16px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+.mobile .sec-wrap .mobile-btn a img {
+  height: 32px;
+}
+.mobile .sec-wrap .mobile-btn a:hover {
+  box-shadow: 0 0 30px rgba(35, 2, 59, 0.5);
+}
+.mobile .mobile-qr {
+  float: left;
+  padding-top: 25px;
+}
+/**********
+main-e
+**********/
