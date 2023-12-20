@@ -1,0 +1,125 @@
+@charset "UTF-8";
+/* section common */
+.sec {
+  padding: 270px 0;
+}
+.sec-tit {
+  display: block;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 80px;
+  margin-bottom: 40px;
+}
+.sec-tit em {
+  color: #662d91;
+}
+.sec-tit span {
+  display: block;
+}
+.sec-desc {
+  font-size: 20px;
+  line-height: 30px;
+  color: #666;
+}
+.sec-desc span {
+  display: block;
+}
+.sec::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+
+/* pageheader */
+.pageheader {
+  padding: 60px 0;
+}
+.pageheader .inner {
+  position: relative;
+}
+.pageheader .page-tit {
+  height: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+.pageheader .page-nav {
+  position: absolute;
+  top: -40px;
+  right: -12px;
+}
+.pageheader .page-nav > * {
+  float: left;
+}
+.pageheader .page-nav i {
+  color: #e3e3e3;
+}
+.pageheader .page-nav a > span {
+  margin: 4px 12px;
+  color: #666;
+  border-bottom: 2px solid rgba(17, 17, 17, 0);
+  transition: all 0.3s;
+}
+.pageheader .page-nav .nav-menu:last-child > a span {
+  font-weight: 600;
+  color: #111;
+}
+.pageheader .page-nav .nav-menu {
+  position: relative;
+}
+.pageheader .page-nav .nav-menu > a {
+  display: block;
+  padding-bottom: 12px;
+}
+.pageheader .page-nav .nav-menu .nav-menu-list {
+  display: none;
+  padding: 12px 0 0 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.pageheader .page-nav .nav-menu > .nav-menu-list li a {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  color: #666;
+  transition: all 0.3s;
+}
+.pageheader .page-nav .nav-menu .nav-menu-list li.on a {
+  font-weight: 600;
+  color: #662d91;
+}
+.pageheader .page-nav .nav-menu-depth1 .nav-menu-list li a {
+  width: 75px;
+}
+.pageheader .page-nav .nav-menu-depth1 .nav-menu-list {
+  width: 95px;
+  height: 220px;
+  position: absolute;
+  top: 27px;
+  right: -20px;
+}
+.pageheader .page-nav .nav-menu-depth2 .nav-menu-list li a {
+  width: 90px;
+}
+.pageheader .page-nav .nav-menu-depth2 .nav-menu-list {
+  width: 110px;
+  height: 163px;
+  position: absolute;
+  top: 27px;
+  right: 0;
+}
+.pageheader .page-nav > a:hover > span,
+.pageheader .page-nav .nav-menu:hover > a span {
+  font-weight: 600;
+  color: #111;
+  border-bottom: 2px solid rgba(17, 17, 17, 1);
+}
+.pageheader .page-nav .nav-menu:hover > .nav-menu-list {
+  display: block;
+}
+.pageheader .page-nav .nav-menu .nav-menu-list li a:hover {
+  font-weight: 600;
+  color: #111;
+}

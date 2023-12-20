@@ -1,0 +1,946 @@
+@charset "UTF-8";
+/**********
+main-s
+**********/
+/* section common */
+.sec {
+	padding: 50px 0 45px 0;
+}
+.sec-tit {
+	margin-bottom: 25px;
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 46px;
+}
+.sec-wrap-tit {
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 26px;
+}
+.sec::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* visual */
+.visual {
+	min-width: 1280px;
+	margin-bottom: 50px;
+}
+.visual > .inner {
+	position: relative;
+}
+.visual .visual-slide > a {
+	display: block;
+	width: 100%;
+	height: 550px;
+}
+.visual .visual-slide .inner {
+	position: relative;
+	height: 550px;
+}
+.visual .visual-slide .slide-contents {
+	padding-top: 155px;
+}
+.visual .visual-slide .slide-contents .slide-tit {
+	font: 700 56px / 70px 'GmarketSans', 'Pretendard';
+	letter-spacing: -2px;
+	margin-bottom: 68px;
+}
+.visual .visual-slide .slide-contents .slide-desc {
+	font-size: 20px;
+	line-height: 26px;
+}
+.visual .visual-slide .slide-contents .slide-desc em {
+	font-weight: 800;
+}
+
+
+
+.visual .visual-slide1 {
+	background-color: #ffc05f;
+}
+.visual .visual-slide1 .inner {
+	background: url(/portpolio/uplus/img/visual-01.png) no-repeat 650px center;
+}
+.visual .visual-slide1 .slide-contents .slide-tit {
+	width: 470px;
+	color: #2e2e2e;
+}
+.visual .visual-slide1 .slide-contents .slide-tit em {
+	color: #8259f3;
+}
+.visual .visual-slide1 .slide-contents .slide-desc {
+	color: #2e2e2e;
+}
+.visual .visual-slide1 .slide-contents .slide-desc span {
+	display: block;
+}
+.visual .visual-slide1 .slide-contents .slide-desc em {
+	color: #8259f3;
+}
+
+.visual .visual-slide2 {
+	background-color: #c0e5eb;
+}
+.visual .visual-slide2 .inner {
+	background: url(/portpolio/uplus/img/visual-02.png) no-repeat 790px center;
+}
+.visual .visual-slide2 .slide-contents .slide-tit {
+	width: 650px;
+	color: #29292b;
+}
+.visual .visual-slide2 .slide-contents .slide-tit > em {
+	color: #1c50f1;
+}
+.visual .visual-slide2 .slide-contents .slide-tit > em em {
+	color: #fc3ed6;
+}
+.visual .visual-slide2 .slide-contents .slide-desc {
+	display: block;
+	width: 280px;
+	color: #29292b;
+}
+.visual .visual-slide2 .slide-contents .slide-desc em {
+	color: #1c50f1;
+}
+
+.visual .visual-slide3 {
+	background-color: #7692ff;
+}
+.visual .visual-slide3 .inner {
+	background: url(/portpolio/uplus/img/visual-03.png) no-repeat 650px center;
+}
+.visual .visual-slide3 .slide-contents .slide-tit {
+	width: 570px;
+	color: #001155;
+}
+.visual .visual-slide3 .slide-contents .slide-tit em {
+	color: #fff;
+}
+.visual .visual-slide3 .slide-contents strong {
+	width: 111px;
+	height: 77px;
+	padding: 25px 8px;
+	background-image: url(/portpolio/uplus/img/visual-text-balloon.png);
+	font: 22px / 26px 'GmarketSans', 'Pretendard';
+	text-align: center;
+	color: #001155;
+	position: absolute;
+	left: 480px;
+	top: 80px;
+}
+.visual .visual-slide3 .slide-contents strong em {
+	font-weight: 700;
+}
+.visual .visual-slide3 .slide-contents strong span {
+	display: block;
+}
+.visual .visual-slide3 .slide-contents .slide-desc {
+	display: block;
+	width: 300px;
+	color: #001155;
+}
+.visual .visual-slide3 .slide-contents .slide-desc em {
+	color: #fff;
+}
+
+.visual .swiper-pagination {
+	width: 102px;
+	height: 40px;
+	line-height: 40px;
+	color: #777;
+	background-color: rgba(255, 255, 255, 0.4);
+	border-radius: 20px;
+	position: absolute;
+	left: 1065px;
+	bottom: 22px;
+}
+.visual .swiper-pagination-current {
+	color: #111;
+}
+.visual .swiper-button-next {
+	width: 40px;
+	height: 40px;
+	background-image: url(/portpolio/uplus/img/btn-visual-next.png);
+	position: absolute;
+	left: 1230px;
+	top: -40px;
+	color: rgba(255, 255, 255, 0);
+}
+.visual .swiper-button-prev {
+	width: 40px;
+	height: 40px;
+	background-image: url(/portpolio/uplus/img/btn-visual-prev.png);
+	position: absolute;
+	left: 1180px;
+	top: -40px;
+	color: rgba(255, 255, 255, 0);
+}
+
+
+/* banner */
+.banner .banner-wrap {
+	width: 1060px;
+	height: 157px;
+	padding: 80px 100px 0 120px;
+	background: url(/portpolio/uplus/img/banner-img.png) no-repeat center 0 #f6f6f6;
+	border-radius: 10px;
+	position: relative;
+}
+.banner-wrap .banner-time {
+	float: left;
+	width: 230px;
+}
+.banner-wrap .banner-time > span {
+	display: block;
+	width: 190px;
+	margin-bottom: 15px;
+	font-weight: 600;
+	text-align: center;
+}
+.banner-wrap .banner-time strong {
+	font-weight: 700;
+	font-size: 36px;
+}
+.banner-wrap .banner-time em {
+	color: #662d91;
+	margin-right: 3px;
+}
+.banner-wrap .banner-txt {
+	float: right;
+}
+.banner-wrap .banner-txt a {
+	display: block;
+	padding-top: 10px;
+	line-height: 30px;
+}
+.banner-wrap .banner-txt a span {
+	font-weight: 600;
+	font-size: 20px;
+}
+.banner-wrap .banner-txt a i {
+	position: absolute;
+	right: 60px;
+	top: 100px;
+}
+
+
+/* event */
+.event-wrap .event-list {
+	float: left;
+	margin-right: 19px;
+}
+.event-wrap .event-list:nth-child(3n) {
+	margin-right: 0;
+}
+.event-wrap .event-list:nth-child(-n+3) {
+	margin-bottom: 19px;
+}
+.event-wrap .event-list a {
+	display: block;
+	width: 364px;
+	height: 148px;
+	padding: 50px 0 0 50px;
+	color: #fff;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+.event-wrap .event-list a strong {
+	display: block;
+	width: 170px;
+	margin-bottom: 11px;
+}
+.event-wrap .event-list a p {
+	font-weight: 200;
+	width: 165px;
+}
+.event-wrap .event-list a p span {
+	display: block;
+}
+.event-wrap .event-list:nth-child(1) a {
+	background: #6fb1fb url(/portpolio/uplus/img/event-01.png) no-repeat 88% 60%;
+}
+.event-wrap .event-list:nth-child(2) a {
+	background: #f2a6a6 url(/portpolio/uplus/img/event-02.png) no-repeat 92% 50%;
+}
+.event-wrap .event-list:nth-child(3) a {
+	background: #9c93ee url(/portpolio/uplus/img/event-03.png) no-repeat 88% 50%;
+}
+.event-wrap .event-list:nth-child(4) a {
+	background: #54be72 url(/portpolio/uplus/img/event-04.png) no-repeat 83% 50%;
+}
+.event-wrap .event-list:nth-child(5) a {
+	background: #2ea5eb url(/portpolio/uplus/img/event-05.png) no-repeat 83% 60%;
+}
+.event-wrap .event-list:nth-child(6) a {
+	background: #8ab1fa url(/portpolio/uplus/img/event-06.png) no-repeat 88% 100%;
+}
+.event-wrap .event-list:nth-child(1):hover a {
+	background-color: #92c3fc;
+}
+.event-wrap .event-list:nth-child(2):hover a {
+	background-color: #ffc5c5;
+}
+.event-wrap .event-list:nth-child(3):hover a {
+	background-color: #c2bbff;
+}
+.event-wrap .event-list:nth-child(4):hover a {
+	background-color: #67dd89;
+}
+.event-wrap .event-list:nth-child(5):hover a {
+	background-color: #58c2ff;
+}
+.event-wrap .event-list:nth-child(6):hover a {
+	background-color: #aecaff;
+}
+
+
+/* payment */
+.payment-bg {
+	min-width: 1280px;
+	height: 600px;
+	padding-top: 190px;
+	background-color: #f2f4f5;
+}
+.payment .inner {
+	position: relative;
+}
+.payment-wrap {
+	position: relative;
+}
+.payment-wrap .payment-list .sec-wrap-tit {
+	padding: 25px;
+	position: absolute;
+	top: -120px;
+	cursor: pointer;
+}
+.payment-wrap .payment-list:nth-child(1) .sec-wrap-tit {
+	left: 0;
+	padding-left: 0;
+}
+.payment-wrap .payment-list:nth-child(2) .sec-wrap-tit {
+	left: 170px;
+}
+.payment-wrap .payment-list:nth-child(3) .sec-wrap-tit {
+	left: 380px;
+}
+.payment-wrap .payment-list:nth-child(4) .sec-wrap-tit {
+	left: 553px;
+}
+.payment-wrap .payment-list .sec-wrap-tit span {
+	padding-bottom: 7px;
+	font-size: 16px;
+	border-bottom: 2px solid rgba(102, 45, 145, 0);
+	transition: all 0.3s;
+}
+.payment-wrap .payment-list .sec-wrap-tit:hover span,
+.payment-wrap .payment-list .sec-wrap-tit.active span {
+	color: #662d91;
+	border-bottom: 2px solid rgba(102, 45, 145, 1)
+}
+.payment-wrap .payment-list .payment-contents {
+	display: none;
+	background-color: #f2f4f5;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.payment-wrap .payment-list .payment-contents.active {
+	display: block;
+}
+.payment-wrap .payment-list .payment-desc {
+	float: left;
+	width: 390px;
+	background-repeat: no-repeat;
+	background-position: 235px 7px;
+}
+.payment-wrap .payment-list:nth-child(1) .payment-desc {
+	background-image: url(/portpolio/uplus/img/payment-01.png);
+}
+.payment-wrap .payment-list:nth-child(2) .payment-desc {
+	background-image: url(/portpolio/uplus/img/payment-02.png);
+}
+.payment-wrap .payment-list:nth-child(3) .payment-desc {
+	background-image: url(/portpolio/uplus/img/payment-03.png);
+}
+.payment-wrap .payment-list:nth-child(4) .payment-desc {
+	background-image: url(/portpolio/uplus/img/payment-04.png);
+	background-position: 200px 7px;
+}
+.payment-wrap .payment-desc strong {
+	display: block;
+	margin-bottom: 15px;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 40px;
+}
+.payment-wrap .payment-desc strong span {
+	display: block;
+}
+.payment-wrap .payment-desc p {
+	margin-bottom: 60px;
+	font-size: 18px;
+	line-height: 28px;
+}
+.payment-wrap .payment-desc p span {
+	display: block;
+}
+.payment-wrap .payment-desc a > span {
+	display: block;
+	width: 150px;
+	height: 50px;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 50px;
+	color: #fff;
+	text-align: center;
+	background-color: #662d91;
+	border-radius: 10px;
+	transition: all 0.3s;
+}
+.payment-wrap .payment-desc:hover a > span {
+	background-color: #c477ff;
+}
+.payment-wrap .payment-recommend {
+	float: right;
+}
+.payment-wrap .payment-recommend > li {
+	float: left;
+	width: 315px;
+	height: 450px;
+	margin-left: 30px;
+	padding: 40px 50px 0 50px;
+	background-color: #fff;
+	border-radius: 10px;
+}
+.payment-wrap .payment-recommend strong {
+	display: block;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 60px;
+}
+.payment-wrap .payment-recommend .payment-recommend-data {
+	height: 84px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 40px;
+}
+.payment-wrap .payment-recommend .payment-recommend-data span {
+	display: block;
+	margin-top: 10px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 22px;
+	color: #666;
+}
+.payment-wrap .payment-recommend ul {
+	margin-bottom: 25px;
+}
+.payment-wrap .payment-recommend ul li {
+	font-weight: 600;
+	line-height: 29px;
+	margin-right: 3px;
+}
+.payment-wrap .payment-recommend ul li span {
+	font-weight: 400;
+	color: #666;
+}
+
+.payment-wrap .payment-recommend .payment-recommend-desc {
+	width: 274px;
+	height: 38px;
+	padding: 25px;
+	margin-bottom: 20px;
+	background-color: #f8f4ff;
+	border-radius: 10px;
+}
+.payment-wrap .payment-recommend .payment-recommend-desc span {
+	display: block;
+}
+.payment-wrap .payment-recommend em {
+	font-weight: 700;
+	font-size: 36px;
+	color: #662d91;
+	letter-spacing: -2px;
+	margin-right: 10px;
+}
+.payment-wrap .payment-recommend > li > span {
+	font-size: 20px;
+	color: #666;
+	text-decoration: line-through;
+}
+.payment .payment-more {
+	font-weight: 600;
+	color: #666;
+	position: absolute;
+	right: 0;
+	top: -90px;
+}
+
+
+/* product */
+.product .inner {
+	position: relative;
+}
+.product-wrap {
+	height: 400px;
+	position: relative;
+}
+.product-wrap .product-list .sec-wrap-tit {
+	width: 380px;
+	line-height: 80px;
+	padding-left: 53px;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}
+.product-wrap .product-list:nth-child(1) .sec-wrap-tit {
+	top: 0;
+}
+.product-wrap .product-list:nth-child(2) .sec-wrap-tit {
+	top: 80px;
+}
+.product-wrap .product-list:nth-child(3) .sec-wrap-tit {
+	top: 160px;
+}
+.product-wrap .product-list:nth-child(4) .sec-wrap-tit {
+	top: 240px;
+}
+.product-wrap .product-list:nth-child(5) .sec-wrap-tit {
+	top: 320px;
+}
+.product-wrap .product-list .sec-wrap-tit > span {
+	padding: 13px 0;
+	border-bottom: 2px solid rgba(102, 45, 145, 0);
+	transition: all 0.3s;
+}
+.product-wrap .product-list .sec-wrap-tit > span > span {
+	color: #666;
+	margin-left: 7px;
+	transition: all 0.3s;
+}
+.product-wrap .product-list .sec-wrap-tit:hover > span,
+.product-wrap .product-list .sec-wrap-tit.active > span {
+	border-bottom: 2px solid rgba(102, 45, 145, 1);
+}
+.product-wrap .product-list .sec-wrap-tit:hover span, .product-wrap .product-list .sec-wrap-tit.active span {
+	color: #662d91;
+}
+.product-wrap .product-list .product-introduce > a {
+	display: block;
+	width: 790px;
+	height: 350px;
+	padding: 50px 0 0 60px;
+	border-radius: 10px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.product-wrap .product-list:nth-child(1) .product-introduce > a {
+	background: #d5f5ea url(/portpolio/uplus/img/product-01.png) no-repeat 462px 100%;
+}
+.product-wrap .product-list:nth-child(2) .product-introduce > a {
+	background: #efdffc url(/portpolio/uplus/img/product-02.png) no-repeat 462px 100%;
+}
+.product-wrap .product-list:nth-child(3) .product-introduce > a {
+	background: #ddd9f4 url(/portpolio/uplus/img/product-03.png) no-repeat 462px 100%;
+}
+.product-wrap .product-list:nth-child(4) .product-introduce > a {
+	background: #f0e3d3 url(/portpolio/uplus/img/product-04.png) no-repeat 462px 100%;
+}
+.product-wrap .product-list:nth-child(5) .product-introduce > a {
+	background: #04505e url(/portpolio/uplus/img/product-05.png) no-repeat 0 0;
+}
+.product-wrap .product-list .product-introduce {
+	display: none;
+}
+.product-wrap .product-list .product-introduce.active {
+	display: block;
+}
+.product-wrap .product-list .product-introduce strong {
+	display: block;
+	height: 63px;
+	margin-bottom: 20px;
+	font: 700 50px / 63px 'Urbanist', 'Pretendard', "돋움", dotum;
+	letter-spacing: -1px;
+}
+.product-wrap .product-list .product-introduce strong span {
+	font-weight: 300;
+	font-size: 43px;
+}
+.product-wrap .product-list .product-introduce p {
+	margin-bottom: 78px;
+	font-size: 20px;
+	line-height: 24px;
+}
+.product-wrap .product-list .product-payment {
+	margin-bottom: 12px;
+}
+.product-wrap .product-list .product-payment li {
+	width: 210px;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 24px;
+}
+.product-wrap .product-list .product-payment li span {
+	float: right;
+}
+.product-wrap .product-list .product-payment li:last-child {
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 35px;
+}
+.product-wrap .product-list:nth-child(1) .product-payment li:last-child {
+	color: #0b8258;
+}
+.product-wrap .product-list:nth-child(2) .product-payment li:last-child {
+	color: #7020a5;
+}
+.product-wrap .product-list:nth-child(3) .product-payment li:last-child {
+	color: #8d45cb;
+}
+.product-wrap .product-list:nth-child(4) .product-payment li:last-child {
+	color: #175dbf;
+}
+.product-wrap .product-list:nth-child(5) .product-introduce {
+	color: #fff;
+}
+.product-wrap .product-list:nth-child(5) .product-introduce p {
+	height: 45px;
+	margin-bottom: 8px;
+}
+.product-wrap .product-list:nth-child(5) .product-introduce strong {
+	display: block;
+	width: 435px;
+	font: 700 41px / 52px 'Pretendard', "돋움", dotum, AppleGothic, sans-serif;
+}
+.product-wrap .product-list:nth-child(5) .product-introduce strong em {
+	color: #46ffd1;
+}
+.product-wrap .product-list .product-introduce > span {
+	font-size: 14px;
+	line-height: 19px;
+	color: #666;
+}
+.product .product-more {
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+.product .product-more li {
+	float: left;
+	margin-left: 30px;
+}
+.product .product-more li a {
+	font-weight: 600;
+	color: #666;
+}
+.product .product-more strong {
+	color: #111;
+}
+
+
+/* subscribe */
+.subscribe .inner {
+	position: relative;
+}
+.subscribe-swiper {
+	height: 490px;
+}
+.subscribe-swiper .subscribe-slide a {
+	display: block;
+	width: 334px;
+	height: 354px;
+	padding: 37px 40px;
+	color: #fff;
+	border-radius: 10px;
+}
+.subscribe-swiper .subscribe-slide1 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-01.png) no-repeat center 45% #5dc85d;
+}
+.subscribe-swiper .subscribe-slide2 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-02.png) no-repeat center 45% #009eff;
+}
+.subscribe-swiper .subscribe-slide3 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-03.png) no-repeat center 45% #00c73c;
+}
+.subscribe-swiper .subscribe-slide4 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-04.png) no-repeat center 45% #fbeb76;
+	color: #111;
+}
+.subscribe-swiper .subscribe-slide5 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-05.png) no-repeat center 45% #1595ff;
+}
+.subscribe-swiper .subscribe-slide6 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-06.png) no-repeat center 45% #4078ff;
+}
+.subscribe-swiper .subscribe-slide7 a {
+	background: url(/portpolio/uplus/img/subscribe-logo-07.png) no-repeat center 45% #7c7ff3;
+}
+.subscribe-swiper .subscribe-slide .sec-wrap-tit {
+	display: block;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 33px;
+	margin-bottom: 5px;
+}
+.subscribe-swiper .subscribe-slide a span {
+	display: block;
+	font-size: 20px;
+	line-height: 30px;
+	margin-bottom: 190px;
+}
+.subscribe-swiper .subscribe-slide a .subscribe-payment {
+	float: right;
+	text-align: right;
+}
+.subscribe-swiper .subscribe-slide a .subscribe-payment p {
+	margin-bottom: 15px;
+	padding: 0 23px;
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 42px;
+	color: #fff;
+	background-color: #662d91;
+	border-radius: 21px;
+}
+.subscribe-swiper .subscribe-slide a .subscribe-payment em {
+	font-weight: 600;
+	font-size: 27px;
+}
+.subscribe .subscribe-more {
+	font-weight: 600;
+	color: #666;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+.subscribe-swiper .swiper-button-prev {
+	width: 32px;
+	height: 32px;
+	top: 460px;
+	left: 600px;
+	color: rgba(0, 0, 0, 0);
+	background-image: url(/portpolio/uplus/img/btn-subscribe-prev.svg);
+}
+.subscribe-swiper .swiper-button-next {
+	width: 32px;
+	height: 32px;
+	top: 460px;
+	right: 600px;
+	color: rgba(0, 0, 0, 0);
+	background-image: url(/portpolio/uplus/img/btn-subscribe-next.svg);
+}
+
+
+/* postscript */
+.postscript .inner {
+	position: relative;
+}
+.postscript-swiper .postscript-slide {
+	height: 390px;
+	border: 1px solid #dfe4ea;
+	box-sizing: border-box;
+	border-radius: 5px;
+	overflow: hidden;
+	position: relative;
+}
+.postscript-swiper .postscript-slide a {
+	display: block;
+	height: 390px;
+}
+.postscript-swiper .postscript-slide .postscript-txt {
+	width: 225px;
+	position: absolute;
+	left: 13px;
+	bottom: 13px;
+}
+.postscript-swiper .postscript-slide .postscript-txt p {
+	margin-bottom: 8px;
+	font-size: 14px;
+	line-height: 18px;
+}
+.postscript-swiper .postscript-slide .postscript-txt > span {
+	display: block;
+	margin-bottom: 19px;
+	font-size: 10px;
+	line-height: 14px;
+	color: #8e959d;
+}
+.postscript-swiper .postscript-slide .postscript-score {
+	font-size: 14px;
+	color: #662d91;
+	position: absolute;
+	bottom: 100px;
+}
+.postscript-swiper .postscript-slide .postscript-product::before {
+	content: "";
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-right: 8px;
+	background-image: url(/portpolio/uplus/img/postscript-thumbnail-01.jpg);
+	background-size: cover;
+	border-radius: 2px;
+}
+.postscript-swiper .postscript-slide2 .postscript-product::before {
+	background-image: url(/portpolio/uplus/img/postscript-thumbnail-02.png);
+}
+.postscript-swiper .postscript-slide3 .postscript-product::before {
+	background-image: url(/portpolio/uplus/img/postscript-thumbnail-03.jpg);
+}
+.postscript-swiper .postscript-slide7 .postscript-product::before {
+	background-image: url(/portpolio/uplus/img/postscript-thumbnail-07.jpg);
+}
+.postscript-swiper .postscript-slide .postscript-product-desc {
+	float: left;
+	font-size: 12px;
+	line-height: 17px;
+	color: #8e959d
+}
+.postscript-swiper .postscript-slide .postscript-product-desc strong {
+	display: block;
+	width: 150px;
+	font-weight: 600;
+}
+.postscript-swiper .postscript-slide .postscript-mov {
+	width: 308px;
+	height: 246px;
+	border-bottom: 1px solid #dfe4ea;
+	position: absolute;
+	top: 0;
+}
+.postscript-swiper .postscript-slide .postscript-mov iframe {
+	width: 100%;
+	height: 245px;
+}
+.postscript-swiper .postscript-slide .postscript-mov .xi-eye-o {
+	font-weight: 500;
+	font-size: 13px;
+	color: #fff;
+	position: absolute;
+	left: 20px;
+	bottom: 8px;
+}
+.postscript-swiper .postscript-slide .postscript-mov .xi-library-books {
+	font-size: 18px;
+	color: #fff;
+	position: absolute;
+	right: 20px;
+	bottom: 5px;
+}
+.postscript .postscript-more {
+	font-weight: 600;
+	color: #666;
+	position: absolute;
+	right: 0;
+	top: 15px;
+}
+
+
+/* inquiry */
+.inquiry {
+	margin-bottom: 50px;
+}
+.inquiry-wrap {
+	float: left;
+	width: 830px;
+	padding-top: 70px;
+	border-top: 1px solid #ddd;
+}
+.inquiry-wrap .inquiry-list {
+	float: left;
+	width: 320px;
+	margin: 0 70px 60px 0;
+}
+.inquiry-wrap .inquiry-list a::before {
+	content: "";
+	float: left;
+	width: 100px;
+	height: 100px;
+	margin-right: 40px;
+	border-radius: 100%;
+	transition: all 0.3s;
+}
+.inquiry-wrap .inquiry-list:nth-child(1) a::before {
+	background: url(/portpolio/uplus/img/inquiry-icon-01.svg) no-repeat center center #eff1f5;
+}
+.inquiry-wrap .inquiry-list:nth-child(2) a::before {
+	background: url(/portpolio/uplus/img/inquiry-icon-02.svg) no-repeat center center #eff1f5;
+}
+.inquiry-wrap .inquiry-list:nth-child(3) a::before {
+	background: url(/portpolio/uplus/img/inquiry-icon-03.svg) no-repeat center center #eff1f5;
+}
+.inquiry-wrap .inquiry-list:nth-child(4) a::before {
+	background: url(/portpolio/uplus/img/inquiry-icon-04.svg) no-repeat center center #eff1f5;
+}
+.inquiry-wrap .inquiry-list a:hover::before {
+	background-color: #edd5ff;
+}
+.inquiry-wrap .inquiry-contents {
+	float: left;
+}
+.inquiry-wrap .inquiry-contents .sec-wrap-tit {
+	line-height: 42px;
+}
+.inquiry-wrap .inquiry-contents p {
+	font-size: 15px;
+	line-height: 23px;
+}
+.inquiry-wrap .inquiry-contents p span {
+	display: block;
+}
+.inquiry-download {
+	float: right;
+	width: 340px;
+	height: 320px;
+	padding: 40px;
+	text-align: center;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+.inquiry-download .inquiry-download-qr img {
+	width: 150px;
+	margin-bottom: 20px;
+}
+.inquiry-download strong {
+	display: block;
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 29px;
+	margin-bottom: 10px;
+}
+.inquiry-download .inquiry-download-desc {
+	width: 200px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+.inquiry-download .inquiry-download-btn a {
+	display: block;
+	width: 165px;
+	height: 44px;
+	padding-top: 16px;
+	text-align: center;
+	border-radius: 30px;
+	background-color: #eff1f5;
+	transition: all 0.3s;
+}
+.inquiry-download .inquiry-download-btn a img {
+	height: 26px;
+}
+.inquiry-download .inquiry-download-btn li:nth-child(1) {
+	float: left;
+}
+.inquiry-download .inquiry-download-btn li:nth-child(2) {
+	float: right;
+}
+.inquiry-download .inquiry-download-btn a:hover {
+	background-color: #edd5ff;
+}
+/**********
+main-e
+**********/
