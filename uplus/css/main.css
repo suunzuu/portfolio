@@ -63,7 +63,7 @@ main-s
 	background-color: #ffc05f;
 }
 .visual .visual-slide1 .inner {
-	background: url(/portpolio/uplus/img/visual-01.png) no-repeat 650px center;
+	background: url(/portfolio/uplus/img/visual-01.png) no-repeat 650px center;
 }
 .visual .visual-slide1 .slide-contents .slide-tit {
 	width: 470px;
@@ -86,7 +86,7 @@ main-s
 	background-color: #c0e5eb;
 }
 .visual .visual-slide2 .inner {
-	background: url(/portpolio/uplus/img/visual-02.png) no-repeat 790px center;
+	background: url(/portfolio/uplus/img/visual-02.png) no-repeat 790px center;
 }
 .visual .visual-slide2 .slide-contents .slide-tit {
 	width: 650px;
@@ -111,7 +111,7 @@ main-s
 	background-color: #7692ff;
 }
 .visual .visual-slide3 .inner {
-	background: url(/portpolio/uplus/img/visual-03.png) no-repeat 650px center;
+	background: url(/portfolio/uplus/img/visual-03.png) no-repeat 650px center;
 }
 .visual .visual-slide3 .slide-contents .slide-tit {
 	width: 570px;
@@ -124,7 +124,7 @@ main-s
 	width: 111px;
 	height: 77px;
 	padding: 25px 8px;
-	background-image: url(/portpolio/uplus/img/visual-text-balloon.png);
+	background-image: url(/portfolio/uplus/img/visual-text-balloon.png);
 	font: 22px / 26px 'GmarketSans', 'Pretendard';
 	text-align: center;
 	color: #001155;
@@ -164,7 +164,7 @@ main-s
 .visual .swiper-button-next {
 	width: 40px;
 	height: 40px;
-	background-image: url(/portpolio/uplus/img/btn-visual-next.png);
+	background-image: url(/portfolio/uplus/img/btn-visual-next.png);
 	position: absolute;
 	left: 1230px;
 	top: -40px;
@@ -173,7 +173,7 @@ main-s
 .visual .swiper-button-prev {
 	width: 40px;
 	height: 40px;
-	background-image: url(/portpolio/uplus/img/btn-visual-prev.png);
+	background-image: url(/portfolio/uplus/img/btn-visual-prev.png);
 	position: absolute;
 	left: 1180px;
 	top: -40px;
@@ -186,7 +186,7 @@ main-s
 	width: 1060px;
 	height: 157px;
 	padding: 80px 100px 0 120px;
-	background: url(/portpolio/uplus/img/banner-img.png) no-repeat center 0 #f6f6f6;
+	background: url(/portfolio/uplus/img/banner-img.png) no-repeat center 0 #f6f6f6;
 	border-radius: 10px;
 	position: relative;
 }
@@ -261,22 +261,22 @@ main-s
 	display: block;
 }
 .event-wrap .event-list:nth-child(1) a {
-	background: #6fb1fb url(/portpolio/uplus/img/event-01.png) no-repeat 88% 60%;
+	background: #6fb1fb url(/portfolio/uplus/img/event-01.png) no-repeat 88% 60%;
 }
 .event-wrap .event-list:nth-child(2) a {
-	background: #f2a6a6 url(/portpolio/uplus/img/event-02.png) no-repeat 92% 50%;
+	background: #f2a6a6 url(/portfolio/uplus/img/event-02.png) no-repeat 92% 50%;
 }
 .event-wrap .event-list:nth-child(3) a {
-	background: #9c93ee url(/portpolio/uplus/img/event-03.png) no-repeat 88% 50%;
+	background: #9c93ee url(/portfolio/uplus/img/event-03.png) no-repeat 88% 50%;
 }
 .event-wrap .event-list:nth-child(4) a {
-	background: #54be72 url(/portpolio/uplus/img/event-04.png) no-repeat 83% 50%;
+	background: #54be72 url(/portfolio/uplus/img/event-04.png) no-repeat 83% 50%;
 }
 .event-wrap .event-list:nth-child(5) a {
-	background: #2ea5eb url(/portpolio/uplus/img/event-05.png) no-repeat 83% 60%;
+	background: #2ea5eb url(/portfolio/uplus/img/event-05.png) no-repeat 83% 60%;
 }
 .event-wrap .event-list:nth-child(6) a {
-	background: #8ab1fa url(/portpolio/uplus/img/event-06.png) no-repeat 88% 100%;
+	background: #8ab1fa url(/portfolio/uplus/img/event-06.png) no-repeat 88% 100%;
 }
 .event-wrap .event-list:nth-child(1):hover a {
 	background-color: #92c3fc;
@@ -358,16 +358,16 @@ main-s
 	background-position: 235px 7px;
 }
 .payment-wrap .payment-list:nth-child(1) .payment-desc {
-	background-image: url(/portpolio/uplus/img/payment-01.png);
+	background-image: url(/portfolio/uplus/img/payment-01.png);
 }
 .payment-wrap .payment-list:nth-child(2) .payment-desc {
-	background-image: url(/portpolio/uplus/img/payment-02.png);
+	background-image: url(/portfolio/uplus/img/payment-02.png);
 }
 .payment-wrap .payment-list:nth-child(3) .payment-desc {
-	background-image: url(/portpolio/uplus/img/payment-03.png);
+	background-image: url(/portfolio/uplus/img/payment-03.png);
 }
 .payment-wrap .payment-list:nth-child(4) .payment-desc {
-	background-image: url(/portpolio/uplus/img/payment-04.png);
+	background-image: url(/portfolio/uplus/img/payment-04.png);
 	background-position: 200px 7px;
 }
 .payment-wrap .payment-desc strong {
@@ -541,19 +541,19 @@ main-s
 	top: 0;
 }
 .product-wrap .product-list:nth-child(1) .product-introduce > a {
-	background: #d5f5ea url(/portpolio/uplus/img/product-01.png) no-repeat 462px 100%;
+	background: #d5f5ea url(/portfolio/uplus/img/product-01.png) no-repeat 462px 100%;
 }
 .product-wrap .product-list:nth-child(2) .product-introduce > a {
-	background: #efdffc url(/portpolio/uplus/img/product-02.png) no-repeat 462px 100%;
+	background: #efdffc url(/portfolio/uplus/img/product-02.png) no-repeat 462px 100%;
 }
 .product-wrap .product-list:nth-child(3) .product-introduce > a {
-	background: #ddd9f4 url(/portpolio/uplus/img/product-03.png) no-repeat 462px 100%;
+	background: #ddd9f4 url(/portfolio/uplus/img/product-03.png) no-repeat 462px 100%;
 }
 .product-wrap .product-list:nth-child(4) .product-introduce > a {
-	background: #f0e3d3 url(/portpolio/uplus/img/product-04.png) no-repeat 462px 100%;
+	background: #f0e3d3 url(/portfolio/uplus/img/product-04.png) no-repeat 462px 100%;
 }
 .product-wrap .product-list:nth-child(5) .product-introduce > a {
-	background: #04505e url(/portpolio/uplus/img/product-05.png) no-repeat 0 0;
+	background: #04505e url(/portfolio/uplus/img/product-05.png) no-repeat 0 0;
 }
 .product-wrap .product-list .product-introduce {
 	display: none;
@@ -660,26 +660,26 @@ main-s
 	border-radius: 10px;
 }
 .subscribe-swiper .subscribe-slide1 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-01.png) no-repeat center 45% #5dc85d;
+	background: url(/portfolio/uplus/img/subscribe-logo-01.png) no-repeat center 45% #5dc85d;
 }
 .subscribe-swiper .subscribe-slide2 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-02.png) no-repeat center 45% #009eff;
+	background: url(/portfolio/uplus/img/subscribe-logo-02.png) no-repeat center 45% #009eff;
 }
 .subscribe-swiper .subscribe-slide3 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-03.png) no-repeat center 45% #00c73c;
+	background: url(/portfolio/uplus/img/subscribe-logo-03.png) no-repeat center 45% #00c73c;
 }
 .subscribe-swiper .subscribe-slide4 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-04.png) no-repeat center 45% #fbeb76;
+	background: url(/portfolio/uplus/img/subscribe-logo-04.png) no-repeat center 45% #fbeb76;
 	color: #111;
 }
 .subscribe-swiper .subscribe-slide5 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-05.png) no-repeat center 45% #1595ff;
+	background: url(/portfolio/uplus/img/subscribe-logo-05.png) no-repeat center 45% #1595ff;
 }
 .subscribe-swiper .subscribe-slide6 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-06.png) no-repeat center 45% #4078ff;
+	background: url(/portfolio/uplus/img/subscribe-logo-06.png) no-repeat center 45% #4078ff;
 }
 .subscribe-swiper .subscribe-slide7 a {
-	background: url(/portpolio/uplus/img/subscribe-logo-07.png) no-repeat center 45% #7c7ff3;
+	background: url(/portfolio/uplus/img/subscribe-logo-07.png) no-repeat center 45% #7c7ff3;
 }
 .subscribe-swiper .subscribe-slide .sec-wrap-tit {
 	display: block;
@@ -725,7 +725,7 @@ main-s
 	top: 460px;
 	left: 600px;
 	color: rgba(0, 0, 0, 0);
-	background-image: url(/portpolio/uplus/img/btn-subscribe-prev.svg);
+	background-image: url(/portfolio/uplus/img/btn-subscribe-prev.svg);
 }
 .subscribe-swiper .swiper-button-next {
 	width: 32px;
@@ -733,7 +733,7 @@ main-s
 	top: 460px;
 	right: 600px;
 	color: rgba(0, 0, 0, 0);
-	background-image: url(/portpolio/uplus/img/btn-subscribe-next.svg);
+	background-image: url(/portfolio/uplus/img/btn-subscribe-next.svg);
 }
 
 
@@ -783,18 +783,18 @@ main-s
 	width: 32px;
 	height: 32px;
 	margin-right: 8px;
-	background-image: url(/portpolio/uplus/img/postscript-thumbnail-01.jpg);
+	background-image: url(/portfolio/uplus/img/postscript-thumbnail-01.jpg);
 	background-size: cover;
 	border-radius: 2px;
 }
 .postscript-swiper .postscript-slide2 .postscript-product::before {
-	background-image: url(/portpolio/uplus/img/postscript-thumbnail-02.png);
+	background-image: url(/portfolio/uplus/img/postscript-thumbnail-02.png);
 }
 .postscript-swiper .postscript-slide3 .postscript-product::before {
-	background-image: url(/portpolio/uplus/img/postscript-thumbnail-03.jpg);
+	background-image: url(/portfolio/uplus/img/postscript-thumbnail-03.jpg);
 }
 .postscript-swiper .postscript-slide7 .postscript-product::before {
-	background-image: url(/portpolio/uplus/img/postscript-thumbnail-07.jpg);
+	background-image: url(/portfolio/uplus/img/postscript-thumbnail-07.jpg);
 }
 .postscript-swiper .postscript-slide .postscript-product-desc {
 	float: left;
@@ -867,16 +867,16 @@ main-s
 	transition: all 0.3s;
 }
 .inquiry-wrap .inquiry-list:nth-child(1) a::before {
-	background: url(/portpolio/uplus/img/inquiry-icon-01.svg) no-repeat center center #eff1f5;
+	background: url(/portfolio/uplus/img/inquiry-icon-01.svg) no-repeat center center #eff1f5;
 }
 .inquiry-wrap .inquiry-list:nth-child(2) a::before {
-	background: url(/portpolio/uplus/img/inquiry-icon-02.svg) no-repeat center center #eff1f5;
+	background: url(/portfolio/uplus/img/inquiry-icon-02.svg) no-repeat center center #eff1f5;
 }
 .inquiry-wrap .inquiry-list:nth-child(3) a::before {
-	background: url(/portpolio/uplus/img/inquiry-icon-03.svg) no-repeat center center #eff1f5;
+	background: url(/portfolio/uplus/img/inquiry-icon-03.svg) no-repeat center center #eff1f5;
 }
 .inquiry-wrap .inquiry-list:nth-child(4) a::before {
-	background: url(/portpolio/uplus/img/inquiry-icon-04.svg) no-repeat center center #eff1f5;
+	background: url(/portfolio/uplus/img/inquiry-icon-04.svg) no-repeat center center #eff1f5;
 }
 .inquiry-wrap .inquiry-list a:hover::before {
 	background-color: #edd5ff;

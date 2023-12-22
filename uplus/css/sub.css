@@ -8,7 +8,7 @@ main-s
   min-width: 1280px;
   color: #fff;
   text-align: center;
-  background: url(/portpolio/uplus/img/visual-bg.jpg) no-repeat center center / cover;
+  background: url(/portfolio/uplus/img/visual-bg.jpg) no-repeat center center / cover;
 }
 .visual p {
   font-size: 39px;
@@ -39,7 +39,7 @@ main-s
   content: "";
   width: 620px;
   height: 673px;
-  background-image: url(/portpolio/uplus/img/economize.png);
+  background-image: url(/portfolio/uplus/img/economize.png);
   position: absolute;
   right: 0;
   top: -200px;
@@ -49,7 +49,7 @@ main-s
 /* convenience */
 .convenience {
   min-width: 1280px;
-  background: url(/portpolio/uplus/img/convenience-bg.jpg) no-repeat center center / cover;
+  background: url(/portfolio/uplus/img/convenience-bg.jpg) no-repeat center center / cover;
 }
 .convenience .sec-txt {
   float: right;
@@ -114,7 +114,7 @@ main-s
   left: 0px;
   width: 340px;
   height: 217px;
-  background-image: url(/portpolio/uplus/img/interest-01.png);
+  background-image: url(/portfolio/uplus/img/interest-01.png);
 }
 .interest .interest-swiper .interest-slide2 {
   background-color: #575757;
@@ -129,7 +129,7 @@ main-s
   left: 0px;
   width: 340px;
   height: 221px;
-  background-image: url(/portpolio/uplus/img/interest-02.png);
+  background-image: url(/portfolio/uplus/img/interest-02.png);
 }
 .interest .interest-swiper .interest-slide3 {
   background-color: #1240aa;
@@ -144,7 +144,7 @@ main-s
   left: 0px;
   width: 340px;
   height: 232px;
-  background-image: url(/portpolio/uplus/img/interest-03.png);
+  background-image: url(/portfolio/uplus/img/interest-03.png);
 }
 .interest .interest-swiper .interest-slide4 {
   background-color: #7a3ece;
@@ -159,7 +159,7 @@ main-s
   left: 0px;
   width: 340px;
   height: 226px;
-  background-image: url(/portpolio/uplus/img/interest-04.png);
+  background-image: url(/portfolio/uplus/img/interest-04.png);
 }
 .interest .interest-swiper .interest-slide5 {
   background-color: #fc5d4a;
@@ -174,14 +174,14 @@ main-s
   left: 0px;
   width: 340px;
   height: 217px;
-  background-image: url(/portpolio/uplus/img/interest-05.png);
+  background-image: url(/portfolio/uplus/img/interest-05.png);
 }
 
 
 /* confidence */
 .confidence {
   min-width: 1280px;
-  background: url(/portpolio/uplus/img/confidence-bg.jpg) no-repeat center center / cover;
+  background: url(/portfolio/uplus/img/confidence-bg.jpg) no-repeat center center / cover;
 }
 .confidence .sec-txt {
   float: right;
