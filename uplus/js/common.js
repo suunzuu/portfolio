@@ -1,4 +1,9 @@
 // *********
+// AOS
+// *********
+AOS.init();
+
+// *********
 // gnb
 // *********
 let tnbIcons = document.querySelectorAll(".tnb-icon");
@@ -14,14 +19,11 @@ tnbIcons.forEach((tnbIcon, index) => {
   });
 });
 tnbSearchClose.addEventListener("click", () => {
-  tnbSearch.classList.remove("active")
-})
+  tnbSearch.classList.remove("active");
+});
 tnbAllMenuClose.addEventListener("click", () => {
-  tnbAllMenu.classList.remove("active")
+  tnbAllMenu.classList.remove("active");
 })
-
-
-
 
 
 
