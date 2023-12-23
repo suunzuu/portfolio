@@ -147,7 +147,7 @@ img, input, select, textarea {
   display: block;
   width: 100%;
   height: 100%;
-  background: url(/portpolio/hollys/img/logo-white.svg) no-repeat center center / cover;
+  background: url(/portfolio/hollys/img/logo-white.svg) no-repeat center center / cover;
   transition: all 0.3s;
 }
 .header:hover {
@@ -155,7 +155,7 @@ img, input, select, textarea {
   background-color: #f7f6f3;
 }
 .header:hover .logo a {
-  background-image: url(/portpolio/hollys/img/logo-black.svg);
+  background-image: url(/portfolio/hollys/img/logo-black.svg);
 }
 .gnb {
   height: 100%;
@@ -337,7 +337,7 @@ textContent .gnb .depth1:hover > a {
   left: 0;
   top: 50%;
   transform: translateY(-55%);
-  background: url(/portpolio/hollys/img/logo-crown.svg) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/logo-crown.svg) no-repeat center center / contain;
   opacity: 0.4;
 }
 /* HEADER-S */
@@ -383,7 +383,7 @@ textContent .gnb .depth1:hover > a {
   width: 18px;
   height: 18px;
   margin-bottom: 3px;
-  background: url(/portpolio/hollys/img/top-arrow.svg) no-repeat center center / cover;
+  background: url(/portfolio/hollys/img/top-arrow.svg) no-repeat center center / cover;
 }
 .top-btn a:hover::before {
   animation: bounce-emphasis 1s infinite;

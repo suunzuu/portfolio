@@ -21,7 +21,7 @@
   width: 42px;
   height: 38px;
   margin-right: 15px;
-  background: url(/portpolio/hollys/img/logo-crown.svg) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/logo-crown.svg) no-repeat center center / contain;
 }
 .sec-header .desc {
   font-weight: 600;
@@ -55,7 +55,7 @@
   display: block;
   width: 23px;
   height: 23px;
-  background: #fff url(/portpolio/hollys/img/more-arrow.svg) no-repeat center center / cover;
+  background: #fff url(/portfolio/hollys/img/more-arrow.svg) no-repeat center center / cover;
   position: absolute;
   right: 50%;
   top: 50%;
@@ -95,19 +95,19 @@
   background-size: cover;
 }
 .visual-swiper .slide1 {
-  background-image: url(/portpolio/hollys/img/visual-img-01-1920.jpg);
+  background-image: url(/portfolio/hollys/img/visual-img-01-1920.jpg);
 }
 .visual-swiper .slide2 {
-  background-image: url(/portpolio/hollys/img/visual-img-02-1920.jpg);
+  background-image: url(/portfolio/hollys/img/visual-img-02-1920.jpg);
 }
 .visual-swiper .slide3 {
-  background-image: url(/portpolio/hollys/img/visual-img-03-1920.jpg);
+  background-image: url(/portfolio/hollys/img/visual-img-03-1920.jpg);
 }
 .visual-swiper .slide4 {
-  background-image: url(/portpolio/hollys/img/visual-img-04-1920.jpg);
+  background-image: url(/portfolio/hollys/img/visual-img-04-1920.jpg);
 }
 .visual-swiper .slide5 {
-  background-image: url(/portpolio/hollys/img/visual-img-05-1920.jpg);
+  background-image: url(/portfolio/hollys/img/visual-img-05-1920.jpg);
 }
 .visual-swiper .swiper-pagination {
   text-align: right;
@@ -119,14 +119,14 @@
   top: calc(100vh - 65px);
   width: 20px;
   height: 20px;
-  background: url(/portpolio/hollys/img/slide-prev.svg) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/slide-prev.svg) no-repeat center center / contain;
 }
 .visual-swiper .swiper-button-next {
   right: 50px;
   top: calc(100vh - 65px);
   width: 20px;
   height: 20px;
-  background: url(/portpolio/hollys/img/slide-next.svg) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/slide-next.svg) no-repeat center center / contain;
 }
 
 /* FRANCHISE-S */
@@ -148,19 +148,19 @@
   background-size: cover;
 }
 .franchise-swiper .slide1 {
-  background-image: url(/portpolio/hollys/img/franchise-img-01.jpg);
+  background-image: url(/portfolio/hollys/img/franchise-img-01.jpg);
 }
 .franchise-swiper .slide2 {
-  background-image: url(/portpolio/hollys/img/franchise-img-02.jpg);
+  background-image: url(/portfolio/hollys/img/franchise-img-02.jpg);
 }
 .franchise-swiper .slide3 {
-  background-image: url(/portpolio/hollys/img/franchise-img-03.jpg);
+  background-image: url(/portfolio/hollys/img/franchise-img-03.jpg);
 }
 .franchise-swiper .slide4 {
-  background-image: url(/portpolio/hollys/img/franchise-img-04.jpg);
+  background-image: url(/portfolio/hollys/img/franchise-img-04.jpg);
 }
 .franchise-swiper .slide5 {
-  background-image: url(/portpolio/hollys/img/franchise-img-05.jpg);
+  background-image: url(/portfolio/hollys/img/franchise-img-05.jpg);
 }
 
 
@@ -259,7 +259,7 @@
 .beverage-main .beverage-img {
   width: 750px;
   margin-right: 50px;
-  background: url(/portpolio/hollys/img/beverage-bg.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-bg.png) no-repeat center center / contain;
   position: relative;
   flex-shrink: 0;
 }
@@ -319,7 +319,7 @@
   display: block;
   width: 130px;
   height: 130px;
-  background: url(/portpolio/hollys/img/beverage-decoration-coffee-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-coffee-img.png) no-repeat center center / contain;
   position: absolute;
   right: 15%;
   top: 18%;
@@ -329,7 +329,7 @@
   display: block;
   width: 70px;
   height: 60px;
-  background: url(/portpolio/hollys/img/beverage-decoration-coffee2-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-coffee2-img.png) no-repeat center center / contain;
   position: absolute;
   right: 25%;
   top: 43%;
@@ -339,7 +339,7 @@
   display: block;
   width: 90px;
   height: 90px;
-  background: url(/portpolio/hollys/img/beverage-decoration-rosemary-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-rosemary-img.png) no-repeat center center / contain;
   position: absolute;
   right: 23%;
   top: 8%;
@@ -351,7 +351,7 @@
   display: block;
   width: 120px;
   height: 120px;
-  background: url(/portpolio/hollys/img/beverage-decoration-rosemary-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-rosemary-img.png) no-repeat center center / contain;
   position: absolute;
   right: 15%;
   top: 15%;
@@ -362,7 +362,7 @@
   display: block;
   width: 100px;
   height: 80px;
-  background: url(/portpolio/hollys/img/beverage-decoration-chocolate-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-chocolate-img.png) no-repeat center center / contain;
   position: absolute;
   right: 14%;
   top: 20%;
@@ -372,7 +372,7 @@
   display: block;
   width: 100px;
   height: 100px;
-  background: url(/portpolio/hollys/img/beverage-decoration-chocolate2-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-chocolate2-img.png) no-repeat center center / contain;
   position: absolute;
   right: 21%;
   top: 8%;
@@ -383,7 +383,7 @@
   display: block;
   width: 350px;
   height: 450px;
-  background: url(/portpolio/hollys/img/beverage-decoration-milk-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-milk-img.png) no-repeat center center / contain;
   position: absolute;
   right: 0;
   top: 15%;
@@ -394,7 +394,7 @@
   display: block;
   width: 150px;
   height: 450px;
-  background: url(/portpolio/hollys/img/beverage-decoration-fruit-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-fruit-img.png) no-repeat center center / contain;
   position: absolute;
   right: 17%;
   top: 12%;
@@ -405,7 +405,7 @@
   display: block;
   width: 70px;
   height: 70px;
-  background: url(/portpolio/hollys/img/beverage-decoration-mint-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-mint-img.png) no-repeat center center / contain;
   position: absolute;
   right: 26%;
   top: 8%;
@@ -416,7 +416,7 @@
   display: block;
   width: 650px;
   height: 550px;
-  background: url(/portpolio/hollys/img/beverage-decoration-water-img.png) no-repeat center center / contain;
+  background: url(/portfolio/hollys/img/beverage-decoration-water-img.png) no-repeat center center / contain;
   position: absolute;
   left: 50%;
   top: 15%;
@@ -615,7 +615,7 @@
   width: 28px;
   height: 28px;
   margin-right: 10px;
-  background: url(/portpolio/hollys/img/sns-instagram.svg) no-repeat center center / cover;
+  background: url(/portfolio/hollys/img/sns-instagram.svg) no-repeat center center / cover;
 }
 .sns .sec-more::after, .sns .sec-more span {
   background-color: #ece5e4;
@@ -635,20 +635,20 @@
 
   /* VISUAL-S */
   .visual-swiper .slide1 {
-    background-image: url(/portpolio/hollys/img/visual-img-01-1280.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-01-1280.jpg);
     background-position: 80% center;
   }
   .visual-swiper .slide2 {
-    background-image: url(/portpolio/hollys/img/visual-img-02-1280.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-02-1280.jpg);
   }
   .visual-swiper .slide3 {
-    background-image: url(/portpolio/hollys/img/visual-img-03-1280.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-03-1280.jpg);
   }
   .visual-swiper .slide4 {
-    background-image: url(/portpolio/hollys/img/visual-img-04-1280.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-04-1280.jpg);
   }
   .visual-swiper .slide5 {
-    background-image: url(/portpolio/hollys/img/visual-img-05-1280.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-05-1280.jpg);
     background-position: 70% center;
   }
   .visual-swiper .swiper-pagination {
@@ -824,19 +824,19 @@
     background-position: center center;
   }
   .visual-swiper .slide1 {
-    background-image: url(/portpolio/hollys/img/visual-img-01-640.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-01-640.jpg);
   }
   .visual-swiper .slide2 {
-    background-image: url(/portpolio/hollys/img/visual-img-02-640.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-02-640.jpg);
   }
   .visual-swiper .slide3 {
-    background-image: url(/portpolio/hollys/img/visual-img-03-640.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-03-640.jpg);
   }
   .visual-swiper .slide4 {
-    background-image: url(/portpolio/hollys/img/visual-img-04-640.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-04-640.jpg);
   }
   .visual-swiper .slide5 {
-    background-image: url(/portpolio/hollys/img/visual-img-05-640.jpg);
+    background-image: url(/portfolio/hollys/img/visual-img-05-640.jpg);
   }
 
   /* BOARD-S */
