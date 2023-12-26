@@ -6,6 +6,12 @@ AOS.init();
 // *********
 // gnb
 // *********
+function closeScreen(closeBtn, closeScreen) {
+  closeBtn.addEventListener("click", () => {
+    closeScreen.classList.remove("active");
+  });
+}
+
 let tnbIcons = document.querySelectorAll(".tnb-icon");
 let tnbMenus = document.querySelectorAll(".tnb-menu-wrap");
 let tnbSearch = document.querySelector(".search-wrap");
@@ -18,14 +24,9 @@ tnbIcons.forEach((tnbIcon, index) => {
     tnbMenus[index].classList.toggle("active");
   });
 });
-tnbSearchClose.addEventListener("click", () => {
-  tnbSearch.classList.remove("active");
-});
-tnbAllMenuClose.addEventListener("click", () => {
-  tnbAllMenu.classList.remove("active");
-})
 
-
+closeScreen(tnbSearchClose, tnbSearch);
+closeScreen(tnbAllMenuClose, tnbAllMenu)
 
 
 
