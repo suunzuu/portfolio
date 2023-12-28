@@ -594,13 +594,7 @@ textContent .gnb .depth1:hover > a {
     font-size: 1.6rem;
   }
   .tnb.active .login, .tnb .join {
-    display: block;
-    color: #333;
-    position: absolute;
-    top: 65px;
-    right: -100px;
-    z-index: 10000;
-    transition: all 0.1s;
+    display: none;
   }
   .tnb.active .login {
     right: 180px;
