@@ -114,18 +114,18 @@
   padding-right: 90px;
   bottom: 50px;
 }
-.visual-swiper .swiper-button-prev {
-  left: calc(100% - 210px);
+.visual-swiper .swiper-button-prev,.visual-swiper .swiper-button-next{
   top: calc(100vh - 65px);
   width: 20px;
   height: 20px;
+  z-index: 1000;
+}
+.visual-swiper .swiper-button-prev {
+  left: calc(100% - 210px);
   background: url(/portfolio/hollys/img/slide-prev.svg) no-repeat center center / contain;
 }
 .visual-swiper .swiper-button-next {
   right: 50px;
-  top: calc(100vh - 65px);
-  width: 20px;
-  height: 20px;
   background: url(/portfolio/hollys/img/slide-next.svg) no-repeat center center / contain;
 }
 
