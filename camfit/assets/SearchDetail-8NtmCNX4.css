@@ -220,10 +220,6 @@
 }
 
 @media all and (max-width : 590px) {
-  .page-content[data-v-dd5eb9c4] {
-    height: 70%
-  }
-
   .page-footer .page-icon[data-v-dd5eb9c4] {
     left: 20px;
     transform: translate(0)
