@@ -1,0 +1,1 @@
+import{_ as e,c as s,a as o,t as a,o as n}from"./index-jr20EfjS.js";const c={name:"NotFound",created(){console.log(this.$route.params)}},r={class:"card card-body"},d=o("h2",null,"404 Not Found",-1);function l(t,u,_,p,i,f){return n(),s("div",r,[d,o("p",null,"존재하지 않는 요청 경로 : "+a(t.$route.fullPath),1)])}const m=e(c,[["render",l]]);export{m as default};
